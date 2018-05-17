@@ -8,6 +8,8 @@
 
 * `Mandracchia Law` in the Navigation should reach the top of the page.
 
+* The NavBar has absolutely no reactivity, and any attempt to put it to % based layouts will cause it to break. Could be the font size?
+
 ### Build Notes
 
 `RSNav` = [EXPORT = RSNav] Reactstrap Default Navigation.
@@ -79,3 +81,5 @@ https://www.defendyourcase.com/
 `h2`: located in `RSNav.css`, modifies all the `h2` tags to be text-aligned end.
 
 `div`: located in `App.css`, modifies all the `div` tags to be have the background-color of #F8F9FA
+
+`p`: located in `AboutUs.css`, adds 0.6rem to all the `p` tags.

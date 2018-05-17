@@ -32,7 +32,7 @@ class RSNav extends Component {
   render() {
     return (
       <div>
-        <h2> Available Days, Nights & Weekends! (111) 111-1111 </h2>
+        {/* <h2> Available Days, Nights & Weekends! (111) 111-1111 </h2> */}
         <div>
           <Navbar color="light" light expand="md">
             <NavbarBrand className="navHead">Mandracchia Law</NavbarBrand>
