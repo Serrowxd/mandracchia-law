@@ -5,7 +5,7 @@ class Upper extends Component {
   render() {
     return (
       <div>
-        <h1> Upper Body goes Here </h1>
+        <h1> Upper Body Goes Here </h1>
       </div>
     );
   }

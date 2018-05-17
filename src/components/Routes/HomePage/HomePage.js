@@ -7,7 +7,7 @@ import Header from './Header/Header';
 import Upper from './Upper/Upper';
 import Main from './Main/Main';
 import Lower from './Lower/Lower';
-import Footer from './Footer/Footer';
+import Footer from '../Footer/Footer';
 
 // NavBar is imported and used on App.js
 

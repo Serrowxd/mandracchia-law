@@ -2,11 +2,17 @@
 
 ### A Attorney Website by Jared Cooper, Randall Whitlock, and Kevin Jolley.
 
+#### MAJOR TO-DO
+
+* Add a "Contact" page and section.
+
 ### Build Notes
 
 `RSNav` = [EXPORT = RSNav] Reactstrap Default Navigation.
 
-`NavBar` = [EXPORT = NavBar] The non-reactstrap version.
+`NavBar` = [EXPORT = NavBar] The non-reactstrap version || **This is currently not in use**
+
+`Footer` = [EXPORT = Footer] Was moved up a level into Routes, will be added to the bottom of every page.
 
 ---
 
@@ -59,3 +65,7 @@ https://www.defendyourcase.com/
 #### Backgrounds
 
 `Background`: #bec7fd **[TEMP]** // index.css + app.css **_TEMP DISABLED_**
+
+### CSS:
+
+`.mainThin`: Located in `AboutUs.css`, used to structure the page.
