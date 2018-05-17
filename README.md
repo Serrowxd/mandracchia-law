@@ -1,6 +1,6 @@
 # Mandracchia Law
 
-### A Attorney Website by Jared Cooper, Randall Whitlock, and Kevin Jolley.
+### An Attorney Website by Jared Cooper, Randall Whitlock, and Kevin Jolley.
 
 #### MAJOR TO-DO
 
@@ -64,11 +64,11 @@ https://www.defendyourcase.com/
 
 `navButton`: #8d2525 **[TEMP]** // NavBar.css **_TEMP DISABLED_**
 
-_BACKGROUND_: #F8F9FA || Located: `App.css` & Public>`Index.css`
-
 #### Backgrounds
 
-`Background`: #bec7fd **[TEMP]** // index.css + app.css **_TEMP DISABLED_**
+`Background || OLD`: #bec7fd **[TEMP]** // index.css + app.css **_TEMP DISABLED_**
+
+`Background`: #F8F9FA || Located: `App.css` & Public>`Index.css`
 
 ### CSS:
 
