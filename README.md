@@ -6,6 +6,8 @@
 
 * Add a "Contact" page and section.
 
+* `Mandracchia Law` in the Navigation should reach the top of the page.
+
 ### Build Notes
 
 `RSNav` = [EXPORT = RSNav] Reactstrap Default Navigation.
@@ -62,6 +64,8 @@ https://www.defendyourcase.com/
 
 `navButton`: #8d2525 **[TEMP]** // NavBar.css **_TEMP DISABLED_**
 
+_BACKGROUND_: #F8F9FA || Located: `App.css` & Public>`Index.css`
+
 #### Backgrounds
 
 `Background`: #bec7fd **[TEMP]** // index.css + app.css **_TEMP DISABLED_**
@@ -69,3 +73,9 @@ https://www.defendyourcase.com/
 ### CSS:
 
 `.mainThin`: Located in `AboutUs.css`, used to structure the page.
+
+`h1`: located in `AboutUs.css`, modifies all the `h1` tags to be text-aligned center.
+
+`h2`: located in `RSNav.css`, modifies all the `h2` tags to be text-aligned end.
+
+`div`: located in `App.css`, modifies all the `div` tags to be have the background-color of #F8F9FA
