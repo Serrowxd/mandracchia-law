@@ -1,3 +1,28 @@
 div {
   background-color: #f8f9fa;
 }
+
+/* h2 {
+  text-align: end;
+  padding-right: 2%;
+  padding-top: 0.3rem;
+} */
+
+p {
+  padding-top: 0.6rem;
+}
+
+.centerH {
+  text-align: center;
+}
+
+.mainThin {
+  margin-top: 3%;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
+.headThin {
+  margin-top: 3%;
+  text-align: center;
+}

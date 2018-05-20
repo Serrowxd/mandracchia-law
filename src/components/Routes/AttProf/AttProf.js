@@ -12,7 +12,7 @@ class AttProf extends Component {
         {/* <NavBar /> */}
         <RSNav />
         <div className="mainThin">
-          <h1> Attorney Profiles Go Here </h1>
+          <h1 className="centerH"> Attorney Profiles Go Here </h1>
           <p>
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -82,8 +82,8 @@ class AttProf extends Component {
             cupidatat non proident, sunt in culpa qui officia deserunt mollit
             anim id est laborum."
           </p>
+          <Footer />
         </div>
-        <Footer />
       </div>
     );
   }

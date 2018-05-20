@@ -74,12 +74,14 @@ https://www.defendyourcase.com/
 
 ### CSS:
 
-`.mainThin`: Located in `AboutUs.css`, used to structure the page.
+`.mainThin`: Located in `App.css`, used to structure the page.
 
-`h1`: located in `AboutUs.css`, modifies all the `h1` tags to be text-aligned center.
+`centerH`: located in `App.css`, modifies all the `centerH` tags to be text-aligned center.
 
-`h2`: located in `RSNav.css`, modifies all the `h2` tags to be text-aligned end.
+`h2`: located in `App.css`, modifies all the `h2` tags to be text-aligned end.
 
 `div`: located in `App.css`, modifies all the `div` tags to be have the background-color of #F8F9FA
 
-`p`: located in `AboutUs.css`, adds 0.6rem to all the `p` tags.
+`p`: located in `App.css`, adds 0.6rem to all the `p` tags.
+
+`headThin`: located in `App.css`.

@@ -16,7 +16,7 @@ class HomePage extends Component {
     return (
       <div>
         {/* <NavBar /> */}
-        <div className="mainThin">
+        <div className="headThin">
           <Header />
           <Upper />
           <Main />

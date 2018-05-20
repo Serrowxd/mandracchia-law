@@ -12,7 +12,7 @@ class AboutUs extends Component {
         {/* <NavBar /> */}
         <RSNav />
         <div className="mainThin">
-          <h1> About Us </h1>
+          <h1 className="centerH"> About Us </h1>
           <p>
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
