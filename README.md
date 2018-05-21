@@ -10,6 +10,8 @@
 
 * The NavBar has absolutely no reactivity, and any attempt to put it to % based layouts will cause it to break. Could be the font size?
 
+* NavBar needs to have at least 1 breakpoint before hitting the second layout - the upper portion clips out of its container. Currently set to `overflow: hidden;` in the CSS file.
+
 ### Build Notes
 
 `RSNav` = [EXPORT = RSNav] Reactstrap Default Navigation.
