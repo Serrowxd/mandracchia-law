@@ -9,14 +9,19 @@ import Main from './Main/Main';
 import Lower from './Lower/Lower';
 import Footer from '../Footer/Footer';
 
+import RSNav from '../../NavBar/RSNav/RSNav';
+
 // NavBar is imported and used on App.js
+
+// You can test two differen types of layouts here
+// Change `mainThinHome` to `mainThin` and it will set a different layout.
 
 class HomePage extends Component {
   render() {
     return (
       <div>
-        {/* <NavBar /> */}
-        <div className="headThin">
+        <RSNav />
+        <div className="mainThinHome">
           <Header />
           <Upper />
           <Main />

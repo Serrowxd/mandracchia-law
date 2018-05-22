@@ -87,3 +87,5 @@ https://www.defendyourcase.com/
 `p`: located in `App.css`, adds 0.6rem to all the `p` tags.
 
 `headThin`: located in `App.css`.
+
+`mainThinHome`: Located in `HomePage.css` - does the same thing as `mainThin` just 1/2's the numbers for padding/margin.

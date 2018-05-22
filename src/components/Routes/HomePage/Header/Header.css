@@ -1,0 +1,15 @@
+.jumboColor {
+  background-color: #f8f9fa;
+}
+
+.headJumboButton {
+  width: 20rem;
+  height: 3rem;
+  background-color: #a74e3a;
+  color: white;
+}
+
+.headJumboButton:hover {
+  color: black;
+  background: #f8f9fa;
+}

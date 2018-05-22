@@ -45,13 +45,11 @@ class Footer extends Component {
         </Navbar>
         <hr />
 
-        {/* Commenting out the below section until I am able to properly align it. */}
-
-        {/* <div>
+        <div className="footDiv">
           <Container>
             <Row className="footRow">
               <Col className="footName">
-                <h1> Mandracchia Law </h1>
+                <h1 className="footHead"> Mandracchia Law </h1>
               </Col>
               <Col className="footName">
                 <h3> Office Location </h3>
@@ -77,7 +75,7 @@ class Footer extends Component {
               </Col>
             </Row>
           </Container>
-        </div> */}
+        </div>
       </div>
     );
   }
