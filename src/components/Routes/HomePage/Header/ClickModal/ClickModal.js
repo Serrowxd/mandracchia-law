@@ -20,7 +20,11 @@ class ClickModal extends Component {
   render() {
     return (
       <div>
-        <Button color="danger" onClick={this.toggle}>
+        <Button
+          color="danger"
+          onClick={this.toggle}
+          className="headJumboButton"
+        >
           {/* {this.props.buttonLabel} */}
           Please Don't Click On Me
         </Button>

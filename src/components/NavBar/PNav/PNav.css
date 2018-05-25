@@ -1,0 +1,22 @@
+.navContainer {
+  /* display: block; */
+  /* margin: 0 auto; */
+  min-width: 100%;
+}
+
+.navTitle {
+  margin-left: 2rem;
+}
+
+.buttons {
+  color: #8d2525;
+  margin-right: 9rem;
+}
+
+.buttons:hover {
+  /* color: #f7f7f7; */
+}
+
+a:hover {
+  text-decoration: none;
+}

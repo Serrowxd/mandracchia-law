@@ -34,7 +34,7 @@ class RSNav extends Component {
       <div>
         {/* <h2> Available Days, Nights & Weekends! (111) 111-1111 </h2> */}
         <div className="headNav">
-          <Navbar color="light" light expand="lg">
+          <Navbar color="light" light expand="lg" className="sticky">
             <NavbarBrand className="navHead">Mandracchia Law</NavbarBrand>
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
