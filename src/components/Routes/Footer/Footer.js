@@ -53,15 +53,11 @@ class Footer extends Component {
               </Col>
               <Col className="footName">
                 <h3> Office Location </h3>
-                <p>Location</p>
-                <p>Location</p>
-                <p>Location</p>
-                <p>Location</p>
+                <p>2024 Cressman Rd Skippack, Pennsylvania</p>
               </Col>
               <Col className="footName">
                 <h3> Contact Us </h3>
-                <p> PHONE NUMBER </p>
-                <p> MAP/DIRECTIONS </p>
+                <p> 610.584.0700 </p>
               </Col>
               <Col>
                 <p> SOCIAL MEDIA </p>

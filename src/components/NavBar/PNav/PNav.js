@@ -7,7 +7,7 @@ import './PNav.css';
 class PNav extends Component {
   render() {
     return (
-      <Container className="navContainer sticky">
+      <Container className="navContainer">
         <Row>
           <Col className="navTitle">
             <h2>Mandracchia Law</h2>

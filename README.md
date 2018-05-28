@@ -12,6 +12,14 @@
 
 * NavBar needs to have at least 1 breakpoint before hitting the second layout - the upper portion clips out of its container. Currently set to `overflow: hidden;` in the CSS file.
 
+* NavBar transition has me stumped, will need to come back to it or just leave it out entirely.
+
+* Add Buttons to the cards, possibly some margin/padding between them?
+
+* MOBILE LAYOUTS AND MEDIA BREAKPOINTS AAAAAAA
+
+* Color scheme?
+
 ### Build Notes
 
 `RSNav` = [EXPORT = RSNav] Reactstrap Default Navigation.
@@ -49,6 +57,8 @@ https://www.facebook.com/pg/wwwmmattorneysdotcom/about/?ref=page_internal
 `React-Router`
 
 `React-Router-Dom`
+
+[`React-Waypoint`](https://github.com/brigade/react-waypoint)
 
 ---
 
@@ -93,3 +103,9 @@ https://www.facebook.com/pg/wwwmmattorneysdotcom/about/?ref=page_internal
 `headThin`: located in `App.css`.
 
 `mainThinHome`: Located in `HomePage.css` - does the same thing as `mainThin` just 1/2's the numbers for padding/margin.
+
+`sticky`: Located in `App.css` - makes the NavBar sticky when adding the `sticky` class attribute.
+
+#### Fonts:
+
+`font-family`: Segoe UI Light `!important` -- located in `index.css` // modifies `body`

@@ -1,0 +1,21 @@
+.aopMain {
+  padding-top: 5rem;
+  text-align: center;
+  padding-bottom: 3rem;
+  font-size: 3rem;
+}
+
+.mainCard {
+  min-width: 20rem; /* breaks at smaller viewports */
+  height: 20rem;
+}
+
+.cardOverlay:hover {
+  background-color: lightblue;
+}
+
+.titleCard {
+  text-align: center;
+  margin-top: 7rem;
+  font-size: 1.7rem;
+}

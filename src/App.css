@@ -26,3 +26,11 @@ p {
   margin-top: 3%;
   text-align: center;
 }
+
+/* this makes the Nav sticky */
+.sticky {
+  margin-bottom: 2rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
