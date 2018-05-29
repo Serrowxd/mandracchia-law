@@ -6,19 +6,17 @@
 
 * Add a "Contact" page and section.
 
-* `Mandracchia Law` in the Navigation should reach the top of the page.
+- The NavBar has absolutely no reactivity, and any attempt to put it to % based layouts will cause it to break. Could be the font size?
 
-* The NavBar has absolutely no reactivity, and any attempt to put it to % based layouts will cause it to break. Could be the font size?
+- NavBar needs to have at least 1 breakpoint before hitting the second layout - the upper portion clips out of its container. Currently set to `overflow: hidden;` in the CSS file.
 
-* NavBar needs to have at least 1 breakpoint before hitting the second layout - the upper portion clips out of its container. Currently set to `overflow: hidden;` in the CSS file.
+- NavBar transition has me stumped, will need to come back to it or just leave it out entirely.
 
-* NavBar transition has me stumped, will need to come back to it or just leave it out entirely.
+- Add Buttons to the cards, possibly some margin/padding between them?
 
-* Add Buttons to the cards, possibly some margin/padding between them?
+- MOBILE LAYOUTS AND MEDIA BREAKPOINTS AAAAAAA
 
-* MOBILE LAYOUTS AND MEDIA BREAKPOINTS AAAAAAA
-
-* Color scheme?
+- Color scheme?
 
 ### Build Notes
 
@@ -59,6 +57,8 @@ https://www.facebook.com/pg/wwwmmattorneysdotcom/about/?ref=page_internal
 `React-Router-Dom`
 
 [`React-Waypoint`](https://github.com/brigade/react-waypoint)
+
+[`React-Spring`](https://github.com/drcmda/react-spring)
 
 ---
 

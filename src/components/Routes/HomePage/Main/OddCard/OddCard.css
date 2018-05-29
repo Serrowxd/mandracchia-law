@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  height: 200px;
+}
+
+.Box {
+  margin-right: 20px;
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+}

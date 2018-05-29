@@ -28,6 +28,7 @@ class HomePage extends Component {
           <Header />
           <Upper />
           <Main />
+
           <Lower />
           <Footer />
         </div>

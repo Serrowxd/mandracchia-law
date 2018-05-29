@@ -8,14 +8,30 @@
 .mainCard {
   min-width: 20rem; /* breaks at smaller viewports */
   height: 20rem;
+  margin: 10px;
+  background-color: gray;
+}
+
+.cardOverlay {
+  background-color: lightslategray;
 }
 
 .cardOverlay:hover {
-  background-color: lightblue;
+  background-color: white;
 }
 
 .titleCard {
   text-align: center;
   margin-top: 7rem;
   font-size: 1.7rem;
+}
+
+.cardButton {
+  margin-top: 1.5rem;
+  margin-left: 9.5rem;
+  /* background-color: black; */
+}
+
+.cardHidden {
+  display: none;
 }

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
 import './Main.css';
 
 import {
@@ -8,9 +9,12 @@ import {
   CardImg,
   CardImgOverlay,
   CardGroup,
+  Button,
 } from 'reactstrap';
 
 class Main extends Component {
+  state = { toggled: false };
+  toggle = e => this.setState(state => ({ toggled: !state.toggled }));
   render() {
     return (
       <div>
