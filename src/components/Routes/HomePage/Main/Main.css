@@ -13,16 +13,18 @@
 }
 
 .cardOverlay {
+  color: white;
   background-color: lightslategray;
 }
 
 .cardOverlay:hover {
-  background-color: white;
+  color: black;
+  background-color: whitesmoke;
 }
 
 .titleCard {
   text-align: center;
-  margin-top: 7rem;
+  margin-top: 7.5rem;
   font-size: 1.7rem;
 }
 
