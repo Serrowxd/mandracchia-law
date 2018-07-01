@@ -16,14 +16,14 @@ import {
 class Main extends Component {
   state = {
     toggled: false,
-    titles: ['Banking', 'Civil Law', 'Commercial', 'Domestic Law'],
-    titles2: [
+    aopRow1: ['Banking', 'Civil Law', 'Commercial', 'Domestic Law'],
+    aopRow2: [
       'Elder Law',
       'Employment and Labor Law',
       'Insurance Law',
       'Intellectual Property',
     ],
-    titles3: [
+    aopRow3: [
       'Personal Injury Recovery',
       'Real Estate',
       'Wills and Estates',
@@ -37,19 +37,19 @@ class Main extends Component {
         <h1 className="aopMain"> Areas of Practice </h1>
         <div>
           <CardGroup>
-            {this.state.titles.map((title, i) => {
+            {this.state.aopRow1.map((title, i) => {
               return <Cards title={title} key={i} />;
             })}
           </CardGroup>
 
           <CardGroup>
-            {this.state.titles2.map((title, i) => {
+            {this.state.aopRow2.map((title, i) => {
               return <Cards title={title} key={i} />;
             })}
           </CardGroup>
 
           <CardGroup>
-            {this.state.titles3.map((title, i) => {
+            {this.state.aopRow3.map((title, i) => {
               return <Cards title={title} key={i} />;
             })}
           </CardGroup>
