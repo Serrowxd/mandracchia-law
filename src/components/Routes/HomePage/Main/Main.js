@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 import './Main.css';
+
+import Cards from './Cards';
 
 import {
   Card,
@@ -13,7 +14,22 @@ import {
 } from 'reactstrap';
 
 class Main extends Component {
-  state = { toggled: false };
+  state = {
+    toggled: false,
+    titles: ['Banking', 'Civil Law', 'Commercial', 'Domestic Law'],
+    titles2: [
+      'Elder Law',
+      'Employment and Labor Law',
+      'Insurance Law',
+      'Intellectual Property',
+    ],
+    titles3: [
+      'Personal Injury Recovery',
+      'Real Estate',
+      'Wills and Estates',
+      'More Info',
+    ],
+  };
   toggle = e => this.setState(state => ({ toggled: !state.toggled }));
   render() {
     return (
@@ -21,90 +37,21 @@ class Main extends Component {
         <h1 className="aopMain"> Areas of Practice </h1>
         <div>
           <CardGroup>
-            <Card className="mainCard">
-              <CardImg width="100%" alt="tmp img" />
-              <CardImgOverlay className="cardOverlay">
-                <CardTitle className="titleCard"> Banking </CardTitle>
-              </CardImgOverlay>
-            </Card>
-            <Card className="mainCard">
-              <CardImg width="100%" alt="tmp img" />
-              <CardImgOverlay className="cardOverlay">
-                <CardTitle className="titleCard"> Civil Law </CardTitle>
-              </CardImgOverlay>
-            </Card>
-            <Card className="mainCard">
-              <CardImg width="100%" alt="tmp img" />
-              <CardImgOverlay className="cardOverlay">
-                <CardTitle className="titleCard"> Commercial </CardTitle>
-              </CardImgOverlay>
-            </Card>
-            <Card className="mainCard">
-              <CardImg width="100%" alt="tmp img" />
-              <CardImgOverlay className="cardOverlay">
-                <CardTitle className="titleCard"> Domestic Law </CardTitle>
-              </CardImgOverlay>
-            </Card>
+            {this.state.titles.map((title, i) => {
+              return <Cards title={title} key={i} />;
+            })}
           </CardGroup>
 
           <CardGroup>
-            <Card className="mainCard">
-              <CardImg width="100%" alt="tmp img" />
-              <CardImgOverlay className="cardOverlay">
-                <CardTitle className="titleCard"> Elder Law </CardTitle>
-              </CardImgOverlay>
-            </Card>
-            <Card className="mainCard">
-              <CardImg width="100%" alt="tmp img" />
-              <CardImgOverlay className="cardOverlay">
-                <CardTitle className="titleCard">
-                  Employment and Labor Law
-                </CardTitle>
-              </CardImgOverlay>
-            </Card>
-            <Card className="mainCard">
-              <CardImg width="100%" alt="tmp img" />
-              <CardImgOverlay className="cardOverlay">
-                <CardTitle className="titleCard"> Insurance Law </CardTitle>
-              </CardImgOverlay>
-            </Card>
-            <Card className="mainCard">
-              <CardImg width="100%" alt="tmp img" />
-              <CardImgOverlay className="cardOverlay">
-                <CardTitle className="titleCard">
-                  Intellectual Property
-                </CardTitle>
-              </CardImgOverlay>
-            </Card>
+            {this.state.titles2.map((title, i) => {
+              return <Cards title={title} key={i} />;
+            })}
           </CardGroup>
 
           <CardGroup>
-            <Card className="mainCard">
-              <CardImg width="100%" alt="tmp img" />
-              <CardImgOverlay className="cardOverlay">
-                <CardTitle className="titleCard">
-                  Personal Injury Recovery
-                </CardTitle>
-              </CardImgOverlay>
-            </Card>
-            <Card className="mainCard">
-              <CardImg width="100%" alt="tmp img" />
-              <CardImgOverlay className="cardOverlay">
-                <CardTitle className="titleCard"> Real Estate </CardTitle>
-              </CardImgOverlay>
-            </Card>
-            <Card className="mainCard">
-              <CardImg width="100%" alt="tmp img" />
-              <CardImgOverlay className="cardOverlay">
-                <CardTitle className="titleCard"> Wills and Estates </CardTitle>
-              </CardImgOverlay>
-            </Card>
-            <Card className="mainCard">
-              <CardImg width="100%" alt="tmp img" />
-              <CardImgOverlay className="cardOverlay">
-                <CardTitle className="titleCard"> More Info </CardTitle>
-              </CardImgOverlay>
-            </Card>
+            {this.state.titles3.map((title, i) => {
+              return <Cards title={title} key={i} />;
+            })}
           </CardGroup>
         </div>
       </div>
