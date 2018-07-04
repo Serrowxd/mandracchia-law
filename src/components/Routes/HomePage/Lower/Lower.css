@@ -2,6 +2,7 @@
 
 .LowerCon {
   padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 
 .input_here {
@@ -17,7 +18,7 @@
 
 .submit {
   margin-top: 3rem;
-  margin-left: 13.5rem;
+  margin-left: 18rem;
   font-size: 2rem;
   width: 18rem;
 }
@@ -29,6 +30,6 @@
 }
 
 .work_together {
-  margin-top: -1.5rem;
+  margin-top: -0.5rem;
   font-size: 3.5rem;
 }

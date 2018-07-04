@@ -28,6 +28,8 @@
 
 - attempting to make color breakpoints will cause issue with `mainThinHome` due to the padding. Any color changes will need to be done manually.
 
+- !!! LAYOUT IS BROKEN ON CHROME, WORKS FINE ON FIREFOX !!!
+
 ### Build Notes
 
 `RSNav` = [EXPORT = RSNav] Reactstrap Default Navigation.

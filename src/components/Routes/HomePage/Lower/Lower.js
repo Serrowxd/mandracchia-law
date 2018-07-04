@@ -24,16 +24,15 @@ class Lower extends Component {
       <div>
         <Container fluid className="LowerCon">
           <Row className="rowColorDark">
-            <Col sm={{ size: 5, offset: 0 }}>
+            <Col sm={{ size: 6, offset: 0 }}>
               <h1 className="oMis oco work_together"> Let's work together </h1>
               <p className="oMisP">{this.state.filler}</p>
               <p className="oMisP">{this.state.filler}</p>
               <p className="oMisP">{this.state.filler}</p>
             </Col>
-            <Col sm={{ size: 5, offset: 1 }}>
+            <Col sm={{ size: 6, offset: 0 }}>
               <h2>
-                {' '}
-                Contact <br />Us{' '}
+                Contact <br />Us
               </h2>
               <InputGroup>
                 <Input className="input_here" placeholder="Name" />

@@ -5,6 +5,9 @@ import './MeetUs.css';
 
 import img from './placeholder.png';
 
+import att1 from '../../../../assets/attorney-mandracchia.png';
+import att2 from '../../../../assets/cm.jpg';
+
 class MeetUs extends Component {
   render() {
     return (
@@ -24,12 +27,12 @@ class MeetUs extends Component {
           <Row className="rowColorLight">
             <Col sm={{ size: 5 }} className="lawyer_head">
               <h1 className="lawyerName_hover"> Charles D. Mandracchia </h1>
-              <img class="imgLawyer" src={img} alt="attorney" />
+              <img class="imgLawyer" src={att1} alt="attorney" />
             </Col>
 
             <Col sm={{ size: 5 }}>
               <h1 className="lawyerName_hover"> Christopher D. Mandracchia </h1>
-              <img class="imgLawyer" src={img} alt="attorney" />
+              <img class="imgLawyer" src={att2} alt="attorney" />
             </Col>
           </Row>
         </Container>

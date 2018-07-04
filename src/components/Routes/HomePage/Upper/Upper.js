@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 
-import img from './placeholder.png';
+import img from '../../../../assets/slider-03.png';
 
 import './Upper.css';
 
@@ -17,7 +17,7 @@ class Upper extends Component {
         <Container fluid className="upperCon">
           <Row className="rowColorDark">
             <Col sm={{ size: 1, offset: 0 }}>
-              <img class="img" src={null} alt="placeholder" />
+              <img class="img tall" src={img} alt="placeholder" />
             </Col>
             <Col sm={{ size: 6, offset: 5 }}>
               <h1 className="oMis oco"> Our Mission </h1>

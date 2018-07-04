@@ -33,3 +33,8 @@
 .upperCon span:hover {
   color: white;
 }
+
+.tall {
+  padding-top: 12rem;
+  width: 80vh;
+}
