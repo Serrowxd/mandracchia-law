@@ -3,15 +3,7 @@ import './Main.css';
 
 import Cards from './Cards';
 
-import {
-  Card,
-  CardTitle,
-  CardText,
-  CardImg,
-  CardImgOverlay,
-  CardGroup,
-  Button,
-} from 'reactstrap';
+import { CardGroup } from 'reactstrap';
 
 class Main extends Component {
   state = {

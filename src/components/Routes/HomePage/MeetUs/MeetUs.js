@@ -13,8 +13,11 @@ class MeetUs extends Component {
           <Row className="fixRow">
             <Col className="fixCol">
               <h1 className="fixRow_h1">
-                {' '}
-                Meet the Team with over 100 years of combined legal experience.
+                Meet the Team with
+                <strong>
+                  <span> over 100 years </span>
+                </strong>
+                of combined legal experience.
               </h1>
             </Col>
           </Row>

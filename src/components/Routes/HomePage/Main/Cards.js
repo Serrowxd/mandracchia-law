@@ -1,13 +1,5 @@
 import React from 'react';
-import {
-  Card,
-  CardTitle,
-  CardText,
-  CardImg,
-  CardImgOverlay,
-  CardGroup,
-  Button,
-} from 'reactstrap';
+import { Card, CardTitle, CardImg, CardImgOverlay } from 'reactstrap';
 
 const Cards = props => {
   return (

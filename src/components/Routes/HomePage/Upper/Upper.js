@@ -4,7 +4,6 @@ import { Container, Row, Col } from 'reactstrap';
 import img from './placeholder.png';
 
 import './Upper.css';
-import { STATUS_CODES } from 'http';
 
 class Upper extends Component {
   state = {

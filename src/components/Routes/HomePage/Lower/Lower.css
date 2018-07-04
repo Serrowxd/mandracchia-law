@@ -1,5 +1,34 @@
 /* temporary padding for framework */
 
-.lowerh1 {
-  padding-top: 3rem;
+.LowerCon {
+  padding-top: 6rem;
+}
+
+.input_here {
+  padding: 15px !important;
+  margin: 25px;
+}
+
+.LowerCon h2 {
+  padding-bottom: 2rem;
+  text-align: center;
+  font-size: 5rem;
+}
+
+.submit {
+  margin-top: 3rem;
+  margin-left: 13.5rem;
+  font-size: 2rem;
+  width: 18rem;
+}
+
+.message {
+  padding-bottom: 12rem !important;
+  height: 15rem;
+  /* Note that Wordwrap does not work */
+}
+
+.work_together {
+  margin-top: -1.5rem;
+  font-size: 3.5rem;
 }
