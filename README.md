@@ -1,24 +1,24 @@
 # Mandracchia Law
 
-### An Attorney Website by Jared Cooper, Randall Whitlock, and Kevin Jolley.
+### An Attorney Website by Jared Cooper and Kevin Jolley.
 
 #### MAJOR TO-DO
 
 - Add a "Contact" page and section.
 
-- The NavBar has absolutely no reactivity, and any attempt to put it to % based layouts will cause it to break. Could be the font size?
+* NavBar needs to have at least 1 breakpoint before hitting the second layout - the upper portion clips out of its container. Currently set to `overflow: hidden;` in the CSS file.
 
-- NavBar needs to have at least 1 breakpoint before hitting the second layout - the upper portion clips out of its container. Currently set to `overflow: hidden;` in the CSS file.
+* NavBar transition has me stumped, will need to come back to it or just leave it out entirely.
 
-- NavBar transition has me stumped, will need to come back to it or just leave it out entirely.
+* Add Buttons to the cards, possibly some margin/padding between them?
 
-- Add Buttons to the cards, possibly some margin/padding between them?
+* MOBILE LAYOUTS AND MEDIA BREAKPOINTS AAAAAAA
 
-- MOBILE LAYOUTS AND MEDIA BREAKPOINTS AAAAAAA
+* Color scheme?
 
-- Color scheme?
+* Possibly extend the "headerImg" to include the nav bar?
 
-- Possibly extend the "headerImg" to include the nav bar?
+* !!! ON THE "MEET THE TEAM" SECTION, CREATE LINKS TO THEIR PERSONAL PAGES. !!!
 
 #### ISSUES
 

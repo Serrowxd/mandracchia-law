@@ -18,4 +18,18 @@
 
 .oco {
   color: orangered !important;
+  padding-top: 2rem;
+}
+
+.upperCon span {
+  color: orangered;
+}
+
+.upperCon h4 {
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.upperCon span:hover {
+  color: white;
 }

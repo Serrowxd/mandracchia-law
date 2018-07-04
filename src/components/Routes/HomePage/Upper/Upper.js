@@ -40,12 +40,22 @@ class Upper extends Component {
               <p className="oMisP">{this.state.filler}</p>
               <p className="oMisP">{this.state.filler}</p>
             </Col>
-            <Col>
-              <h1 className="oco"> Why Hire a Local Criminal Attorney? </h1>
-              <p className="oMisP">{this.state.filler}</p>
-              <p className="oMisP">{this.state.filler}</p>
-            </Col>
           </Row>
+          <Row>
+            <h1 className="oco"> Why Hire a Local Criminal Attorney? </h1>
+            <p className="oMisP">{this.state.filler}</p>
+            <p className="oMisP">{this.state.filler}</p>
+          </Row>
+
+          <Row>
+            <h1 className="oco"> Why Hire Mandracchia Law? </h1>
+            <p className="oMisP">{this.state.filler}</p>
+            <p className="oMisP">{this.state.filler}</p>
+          </Row>
+          <h4>
+            Protect your Legal Rights! <span>Contact Mandracchia Law </span>
+            today to discuss your case.
+          </h4>
         </Container>
       </div>
     );

@@ -1,0 +1,41 @@
+.lightDiv,
+.rowColorLight,
+.light_div,
+.MeetUsCon div {
+  background-color: #eeeeee !important;
+  color: black;
+  padding: 3rem;
+  text-align: center !important;
+}
+
+.MeetUsCon div {
+  margin-top: 8rem;
+}
+
+.imgLawyer {
+  padding-top: 10vh;
+  padding-left: 3vh;
+  width: 70vh;
+}
+
+.lawyer_head {
+  margin-right: 18rem !important;
+  text-align: center;
+}
+
+.fixRow {
+  margin-bottom: -22rem;
+}
+
+.fixCol {
+  margin-top: -1rem !important;
+}
+
+.fixRow_h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.lawyerName_hover:hover {
+  color: orangered;
+}

@@ -5,6 +5,7 @@ import './HomePage.css';
 import Header from './Header/Header';
 import LowerHeader from './LowerHeader/LowerHeader';
 import Upper from './Upper/Upper';
+import MeetUs from './MeetUs/MeetUs';
 import Main from './Main/Main';
 import Lower from './Lower/Lower';
 import Footer from '../Footer/Footer';
@@ -30,6 +31,9 @@ class HomePage extends Component {
           <Header />
           <LowerHeader />
           <Upper />
+
+          <MeetUs />
+
           <Main />
 
           <Lower />
