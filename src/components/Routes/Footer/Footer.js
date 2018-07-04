@@ -3,6 +3,8 @@ import { Container, Row, Col, Navbar, Nav, NavItem, NavLink } from 'reactstrap';
 
 import './Footer.css';
 
+import img from '../../../assets/smedia/Facebook-icon.png';
+
 // Footer Routes?
 
 class Footer extends Component {
@@ -46,7 +48,7 @@ class Footer extends Component {
         <hr className="lowerHR" />
 
         <div className="footDiv">
-          <Container>
+          <Container fluid>
             <Row className="footRow">
               <Col className="footName">
                 <h1 className="footHead"> Mandracchia Law </h1>
@@ -60,14 +62,12 @@ class Footer extends Component {
                 <p> 610.584.0700 </p>
               </Col>
               <Col>
-                <p> SOCIAL MEDIA </p>
-                <p> SOCIAL MEDIA </p>
-                <p> SOCIAL MEDIA </p>
-              </Col>
-              <Col>
-                <p> SOCIAL MEDIA </p>
-                <p> SOCIAL MEDIA </p>
-                <p> SOCIAL MEDIA </p>
+                <a
+                  href="https://www.facebook.com/pg/wwwmmattorneysdotcom/about/?ref=page_internal"
+                  target="_blank"
+                >
+                  <img class="img foot_smedia" src={img} alt="facebook" />
+                </a>
               </Col>
             </Row>
             <Row>

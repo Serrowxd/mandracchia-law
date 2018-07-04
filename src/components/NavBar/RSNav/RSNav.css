@@ -3,12 +3,21 @@
 }
 
 .navTextL {
-  font-size: 1.5rem;
-  margin-right: 7rem;
+  font-size: 1.6rem;
   padding-top: 2rem;
+  margin-right: 2rem;
+}
+
+.right_shift_nav {
+  margin-right: 7rem;
 }
 
 .headNav {
   max-width: 100%;
   overflow: hidden;
+}
+
+.headNav h1 {
+  font-size: 1.5rem;
+  text-align: center;
 }

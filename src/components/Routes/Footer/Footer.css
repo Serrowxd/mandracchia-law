@@ -26,6 +26,10 @@
 
 .middle_text {
   text-align: center;
-  padding-left: 16rem;
+  padding-left: 14rem;
   padding-top: 1rem;
+}
+
+.foot_smedia {
+  width: 6rem;
 }

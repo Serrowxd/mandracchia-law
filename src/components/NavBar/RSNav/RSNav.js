@@ -40,22 +40,28 @@ class RSNav extends Component {
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="ml-auto" navbar>
                 <NavItem>
-                  <NavLink className="navTextL" href="/">
+                  <NavLink className="navTextL right_shift_nav " href="/">
                     Home
                   </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink className="navTextL" href="/AboutUs/">
+                  <NavLink
+                    className="navTextL right_shift_nav "
+                    href="/AboutUs/"
+                  >
                     About Us
                   </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink className="navTextL" href="/AttProf/">
+                  <NavLink
+                    className="navTextL right_shift_nav "
+                    href="/AttProf/"
+                  >
                     Attorney Profiles
                   </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink className="navTextL" href="/AoP/">
+                  <NavLink className="navTextL right_shift_nav " href="/AoP/">
                     Areas of Practice
                   </NavLink>
                 </NavItem>
@@ -66,6 +72,10 @@ class RSNav extends Component {
                 </NavItem>
               </Nav>
             </Collapse>
+            <h1>
+              {' '}
+              Free Initial Consultation <br /> 610-584-0700{' '}
+            </h1>
           </Navbar>
         </div>
       </div>
