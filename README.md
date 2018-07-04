@@ -118,6 +118,8 @@ https://www.facebook.com/pg/wwwmmattorneysdotcom/about/?ref=page_internal
 
 `sticky`: Located in `App.css` - makes the NavBar sticky when adding the `sticky` class attribute.
 
+`oco`: Located in `Upper.css` - makes the text color `orangered !important` - best used to highlight certain bits of text, will be moving to `span`.
+
 #### Fonts:
 
 `font-family`: Segoe UI Light `!important` -- located in `index.css` // modifies `body`

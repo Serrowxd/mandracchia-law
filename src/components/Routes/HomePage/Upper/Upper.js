@@ -4,8 +4,14 @@ import { Container, Row, Col } from 'reactstrap';
 import img from './placeholder.png';
 
 import './Upper.css';
+import { STATUS_CODES } from 'http';
 
 class Upper extends Component {
+  state = {
+    filler: [
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    ],
+  };
   render() {
     return (
       <div>
@@ -14,8 +20,8 @@ class Upper extends Component {
             <Col sm={{ size: 1, offset: 0 }}>
               <img class="img" src={null} alt="placeholder" />
             </Col>
-            <Col sm={{ size: 8, offset: 3 }}>
-              <h1 className="oMis"> Our Mission </h1>
+            <Col sm={{ size: 6, offset: 5 }}>
+              <h1 className="oMis oco"> Our Mission </h1>
               <p className="oMisP">
                 The attorneys of Mandracchia & McWhirk, LLC take pride in the
                 firm’s ability to represent clients zealously, yet ethically.
@@ -31,6 +37,13 @@ class Upper extends Component {
                 the same competent, zealous representation in that emerging area
                 as they displayed in the initial issues.
               </p>
+              <p className="oMisP">{this.state.filler}</p>
+              <p className="oMisP">{this.state.filler}</p>
+            </Col>
+            <Col>
+              <h1 className="oco"> Why Hire a Local Criminal Attorney? </h1>
+              <p className="oMisP">{this.state.filler}</p>
+              <p className="oMisP">{this.state.filler}</p>
             </Col>
           </Row>
         </Container>

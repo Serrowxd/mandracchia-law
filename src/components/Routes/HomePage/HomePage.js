@@ -3,6 +3,7 @@ import './HomePage.css';
 
 // Imports
 import Header from './Header/Header';
+import LowerHeader from './LowerHeader/LowerHeader';
 import Upper from './Upper/Upper';
 import Main from './Main/Main';
 import Lower from './Lower/Lower';
@@ -12,7 +13,7 @@ import Footer from '../Footer/Footer';
 
 // import NavBar from '../../NavBar/NavBar';
 import RSNav from '../../NavBar/RSNav/RSNav';
-import LowerHeader from './LowerHeader/LowerHeader';
+
 // import PNav from '../../NavBar/PNav/PNav';
 
 // NavBar is imported and used on App.js
