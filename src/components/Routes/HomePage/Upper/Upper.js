@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 
 import img from '../../../../assets/slider-03.png';
+import img2 from '../../../../assets/slider-04.png';
 
 import './Upper.css';
 
@@ -41,15 +42,20 @@ class Upper extends Component {
             </Col>
           </Row>
           <Row>
-            <h1 className="oco"> Why Hire a Local Criminal Attorney? </h1>
-            <p className="oMisP">{this.state.filler}</p>
-            <p className="oMisP">{this.state.filler}</p>
+            <Col sm={{ size: 6, offset: 0 }}>
+              <h1 className="oco"> Why Hire a Local Criminal Attorney? </h1>
+              <p className="oMisP">{this.state.filler}</p>
+            </Col>
           </Row>
 
           <Row>
-            <h1 className="oco"> Why Hire Mandracchia Law? </h1>
-            <p className="oMisP">{this.state.filler}</p>
-            <p className="oMisP">{this.state.filler}</p>
+            <Col sm={{ size: 6, offset: 0 }}>
+              <h1 className="oco"> Why Hire Mandracchia Law? </h1>
+              <p className="oMisP">{this.state.filler}</p>
+            </Col>
+            <Col sm={{ size: 1, offset: 0 }}>
+              <img class="img tall2" src={img2} alt="img2" />
+            </Col>
           </Row>
           <h4>
             Protect your Legal Rights! <span>Contact Mandracchia Law </span>
