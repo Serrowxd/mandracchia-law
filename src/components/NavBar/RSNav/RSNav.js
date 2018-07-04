@@ -35,7 +35,9 @@ class RSNav extends Component {
         {/* <h2> Available Days, Nights & Weekends! (111) 111-1111 </h2> */}
         <div className="headNav">
           <Navbar color="dark" dark expand="lg" className="">
-            <NavbarBrand className="navHead">Mandracchia Law</NavbarBrand>
+            <NavbarBrand className="navHead">
+              <strong>Mandracchia Law</strong>
+            </NavbarBrand>
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="ml-auto" navbar>
@@ -73,8 +75,9 @@ class RSNav extends Component {
               </Nav>
             </Collapse>
             <h1>
-              {' '}
-              Free Initial Consultation <br /> 610-584-0700{' '}
+              <strong>
+                Free Initial Consultation <br /> 610-584-0700
+              </strong>
             </h1>
           </Navbar>
         </div>

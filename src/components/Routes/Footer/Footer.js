@@ -51,14 +51,23 @@ class Footer extends Component {
           <Container fluid>
             <Row className="footRow">
               <Col className="footName">
-                <h1 className="footHead"> Mandracchia Law </h1>
+                <h1 className="footHead">
+                  {' '}
+                  <strong>Mandracchia Law</strong>{' '}
+                </h1>
               </Col>
               <Col className="footName">
-                <h3> Office Location </h3>
+                <h3>
+                  {' '}
+                  <strong>Office Location</strong>{' '}
+                </h3>
                 <p>2024 Cressman Rd Skippack, Pennsylvania</p>
               </Col>
               <Col className="footName">
-                <h3> Contact Us </h3>
+                <h3>
+                  {' '}
+                  <strong>Contact Us</strong>{' '}
+                </h3>
                 <p> 610.584.0700 </p>
               </Col>
               <Col>

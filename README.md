@@ -20,6 +20,8 @@
 
 * !!! ON THE "MEET THE TEAM" SECTION, CREATE LINKS TO THEIR PERSONAL PAGES. !!!
 
+* Unsure about second image addition in `Upper` - might need to rework it.
+
 #### ISSUES
 
 - `index.css` - navigation is broken for the color scheme.
