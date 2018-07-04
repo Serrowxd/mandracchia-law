@@ -23,3 +23,9 @@
 .footHead {
   font-size: 3rem;
 }
+
+.middle_text {
+  text-align: center;
+  padding-left: 16rem;
+  padding-top: 1rem;
+}

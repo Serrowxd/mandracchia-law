@@ -70,6 +70,17 @@ class Footer extends Component {
                 <p> SOCIAL MEDIA </p>
               </Col>
             </Row>
+            <Row>
+              <Col>
+                <p className="middle_text">
+                  Copyright © 2018 Mandracchia Law LLC. All Rights Reserved. ||
+                  Design & Develeopment by:{' '}
+                  <a href="https://github.com/Serrowxd" target="_blank">
+                    Kevin Jolley
+                  </a>
+                </p>
+              </Col>
+            </Row>
           </Container>
         </div>
       </div>
