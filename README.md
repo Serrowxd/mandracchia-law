@@ -4,7 +4,7 @@
 
 #### MAJOR TO-DO
 
-* Add a "Contact" page and section.
+- Add a "Contact" page and section.
 
 - The NavBar has absolutely no reactivity, and any attempt to put it to % based layouts will cause it to break. Could be the font size?
 
@@ -17,6 +17,16 @@
 - MOBILE LAYOUTS AND MEDIA BREAKPOINTS AAAAAAA
 
 - Color scheme?
+
+- Possibly extend the "headerImg" to include the nav bar?
+
+#### ISSUES
+
+- `index.css` - navigation is broken for the color scheme.
+
+- Changed RSNav to `dark` instead of `light` for the sake of color scheme management - will need override.
+
+- attempting to make color breakpoints will cause issue with `mainThinHome` due to the padding. Any color changes will need to be done manually.
 
 ### Build Notes
 
@@ -87,6 +97,8 @@ https://www.facebook.com/pg/wwwmmattorneysdotcom/about/?ref=page_internal
 `Background || OLD`: #bec7fd **[TEMP]** // index.css + app.css **_TEMP DISABLED_**
 
 `Background`: #F8F9FA || Located: `App.css` & Public>`Index.css`
+
+`white-background`: #eeeeee || Located: `LowerHeader.css`
 
 ### CSS:
 

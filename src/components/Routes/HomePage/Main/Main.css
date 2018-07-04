@@ -14,12 +14,12 @@
 
 .cardOverlay {
   color: white;
-  background-color: lightslategray;
+  background-color: lightslategray !important;
 }
 
 .cardOverlay:hover {
   color: black;
-  background-color: whitesmoke;
+  background-color: snow !important;
 }
 
 .titleCard {

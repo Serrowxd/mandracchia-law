@@ -12,6 +12,7 @@ import Footer from '../Footer/Footer';
 
 // import NavBar from '../../NavBar/NavBar';
 import RSNav from '../../NavBar/RSNav/RSNav';
+import LowerHeader from './LowerHeader/LowerHeader';
 // import PNav from '../../NavBar/PNav/PNav';
 
 // NavBar is imported and used on App.js
@@ -26,6 +27,7 @@ class HomePage extends Component {
         <RSNav />
         <div className="mainThinHome">
           <Header />
+          <LowerHeader />
           <Upper />
           <Main />
 

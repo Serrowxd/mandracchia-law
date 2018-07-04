@@ -43,7 +43,7 @@ class Footer extends Component {
             </NavItem>
           </Nav>
         </Navbar>
-        <hr />
+        <hr className="lowerHR" />
 
         <div className="footDiv">
           <Container>

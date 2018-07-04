@@ -10,17 +10,21 @@ class Header extends Component {
     return (
       <div>
         <Jumbotron fluid className="jumboColor">
-          <h1 className="display-3"> Looking For </h1>
-          <h1 className="display-1"> CRIMINAL DEFENSE </h1>
-          <h1 className="display-2"> REPRESENTATION </h1>
-          <h1 className="display-4"> IN PENNSYLVANIA? </h1>
-          <hr className="my-2" />
-          <p className="lead">Mandracchia Law is a Full-Service Law Firm.</p>
-          <p className="lead">
+          <h1 className="display-3 shift_right"> Looking For </h1>
+          <h1 className="display-1 shift_right"> CRIMINAL DEFENSE </h1>
+          <h1 className="display-2 shift_right"> REPRESENTATION </h1>
+          <h1 className="display-4 shift_right"> IN PENNSYLVANIA? </h1>
+          {/* <hr className="my-2 upperHR" /> */}
+          <p className="lead shift_right">
+            Mandracchia Law is a Full-Service Law Firm. <br />
             We are primarily trial attorneys and litigators. We handle criminal,
             personal injury, civil, wills, family etc.
           </p>
-          <p className="lead">
+          {/* <p className="lead">
+            We are primarily trial attorneys and litigators. We handle criminal,
+            personal injury, civil, wills, family etc.
+          </p> */}
+          <p className="lead shift_right">
             <Button outline className="headJumboButton">
               Let us handle your case!
             </Button>

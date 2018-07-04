@@ -10,9 +10,9 @@ class Upper extends Component {
     return (
       <div>
         <Container fluid className="upperCon">
-          <Row>
+          <Row className="rowColorDark">
             <Col sm={{ size: 1, offset: 0 }}>
-              <img class="img" src={img} alt="placeholder" />
+              <img class="img" src={null} alt="placeholder" />
             </Col>
             <Col sm={{ size: 8, offset: 3 }}>
               <h1 className="oMis"> Our Mission </h1>

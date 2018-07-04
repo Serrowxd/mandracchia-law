@@ -1,16 +1,29 @@
 .jumboColor {
   /* padding-top: 5%; this is for the sticky RSNav */
   background-color: #f8f9fa;
+  background-image: url('../../../../assets/aboutus-banner-bg.jpg');
+  background-repeat: no-repeat;
+  width: 196.7vh !important;
+  margin-top: -1.1rem;
+  margin-left: -3.5rem !important;
+  background-position: center;
 }
 
 .headJumboButton {
-  width: 20rem;
-  height: 3rem;
+  width: 30rem;
+  height: 4rem;
+  font-size: 2rem;
   background-color: #a74e3a;
   color: white;
+  border: none;
+  /* margin-left: 6rem; */
 }
 
 .headJumboButton:hover {
   color: black;
   background: #f8f9fa;
+}
+
+.shift_right {
+  margin-left: 2%;
 }
