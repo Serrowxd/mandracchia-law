@@ -36,8 +36,8 @@ class HomePage extends Component {
 
           <MeetUs />
 
-          {/* <Main /> */}
-          <OldMain />
+          <Main />
+          {/* <OldMain /> */}
 
           <Lower />
           <Footer />
