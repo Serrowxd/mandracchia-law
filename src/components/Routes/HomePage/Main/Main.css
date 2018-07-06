@@ -14,18 +14,19 @@
 
 .cardOverlay {
   color: white;
-  background-color: lightslategray !important;
+  background-color: #5e6b779a !important;
 }
 
 .cardOverlay:hover {
-  color: black;
-  background-color: snow !important;
+  /* color: black; */
+  background-color: #b8340080 !important;
 }
 
 .titleCard {
   text-align: center;
   margin-top: 7.5rem;
-  font-size: 1.7rem;
+  /* font-size: 1.7rem; */
+  font-size: 2.1rem;
 }
 
 .cardButton {
@@ -36,4 +37,42 @@
 
 .cardHidden {
   display: none;
+}
+
+.cardOverlay .button {
+  margin-left: 8rem;
+  margin-top: 50%;
+  opacity: 0;
+}
+
+.cardOverlay:hover .button {
+  animation: slideup 0.5s forwards;
+}
+
+.cardOverlay:hover .titleCard {
+  animation: shiftup 0.5s forwards;
+}
+
+.cardImg {
+  height: 80px !important;
+}
+
+@keyframes slideup {
+  0% {
+    opacity: 0;
+    margin-top: 50%;
+  }
+  30% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 10%;
+  }
+}
+
+@keyframes shiftup {
+  100% {
+    margin-top: 5rem;
+  }
 }

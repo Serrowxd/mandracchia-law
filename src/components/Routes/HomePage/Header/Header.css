@@ -3,7 +3,8 @@
   background-color: #f8f9fa;
   background-image: url('../../../../assets/aboutus-banner-bg.jpg');
   background-repeat: no-repeat;
-  width: 196.7vh !important;
+  /* width: 196.7vh !important; */
+  width: 106.3%; /* This fixes it in Chrome but throws off the layout */
   margin-top: -1.1rem;
   margin-left: -3.5rem !important;
   background-position: center;
