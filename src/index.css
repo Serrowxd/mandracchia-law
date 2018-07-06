@@ -178,3 +178,13 @@ div,
 .lowerHR {
   border-color: orangered !important;
 }
+
+/* Global Transition Animations */
+
+.glb_anim {
+  transition: color 0.2s ease-in-out;
+}
+
+.glb_anim:hover {
+  color: whitesmoke;
+}

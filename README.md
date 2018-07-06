@@ -126,6 +126,10 @@ https://www.facebook.com/pg/wwwmmattorneysdotcom/about/?ref=page_internal
 
 `span`: Located in `AboutUs.css` - changes the color to `orangered` as the same as above ^
 
-#### Fonts:
+### Fonts:
 
 `font-family`: Segoe UI Light `!important` -- located in `index.css` // modifies `body`
+
+### Animations:
+
+`glb_anim`: Located in `index.css` -- adds a transtion CSS event.

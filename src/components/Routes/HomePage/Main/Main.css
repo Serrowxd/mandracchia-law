@@ -15,11 +15,13 @@
 .cardOverlay {
   color: white;
   background-color: #5e6b779a !important;
+  transition: background-color 0.3s ease-in-out;
 }
 
 .cardOverlay:hover {
   /* color: black; */
-  background-color: #b8340080 !important;
+  /* background-color: #b83400bb !important; */
+  background-color: #753d23a8 !important;
 }
 
 .titleCard {
@@ -29,32 +31,15 @@
   font-size: 2.1rem;
 }
 
-.cardButton {
-  margin-top: 1.5rem;
-  margin-left: 9.5rem;
-  /* background-color: black; */
-}
-
-.cardHidden {
-  display: none;
-}
-
 .cardOverlay .button {
   margin-left: 8rem;
-  margin-top: 50%;
   opacity: 0;
 }
 
+/* Card Keyframe Animation */
+
 .cardOverlay:hover .button {
-  animation: slideup 0.5s forwards;
-}
-
-.cardOverlay:hover .titleCard {
-  animation: shiftup 0.5s forwards;
-}
-
-.cardImg {
-  height: 80px !important;
+  animation: slideup 0.6s forwards;
 }
 
 @keyframes slideup {
@@ -71,8 +56,26 @@
   }
 }
 
-@keyframes shiftup {
-  100% {
-    margin-top: 5rem;
-  }
+/* Transition Animation */
+
+.cardOverlay .titleCard {
+  transition: margin-top 0.5s ease-in-out;
+}
+
+.cardOverlay:hover .titleCard {
+  margin-top: 5rem;
+}
+
+.cardOverlay .button {
+  transition: margin-top 2s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.cardOverlay:hover .button {
+  margin-top: 10%;
+  opacity: 1;
+}
+
+.card_img {
+  height: 100%;
 }

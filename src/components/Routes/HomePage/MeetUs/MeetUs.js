@@ -26,12 +26,18 @@ class MeetUs extends Component {
           </Row>
           <Row className="rowColorLight">
             <Col sm={{ size: 5 }} className="lawyer_head">
-              <h1 className="lawyerName_hover"> Charles D. Mandracchia </h1>
+              <h1 className="lawyerName_hover glb_anim">
+                {' '}
+                Charles D. Mandracchia{' '}
+              </h1>
               <img class="imgLawyer" src={att1} alt="attorney" />
             </Col>
 
             <Col sm={{ size: 5 }}>
-              <h1 className="lawyerName_hover"> Christopher D. Mandracchia </h1>
+              <h1 className="lawyerName_hover glb_anim">
+                {' '}
+                Christopher D. Mandracchia{' '}
+              </h1>
               <img class="imgLawyer" src={att2} alt="attorney" />
             </Col>
           </Row>

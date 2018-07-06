@@ -42,13 +42,16 @@ class RSNav extends Component {
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="ml-auto" navbar>
                 <NavItem>
-                  <NavLink className="navTextL right_shift_nav " href="/">
+                  <NavLink
+                    className="navTextL right_shift_nav glb_anim"
+                    href="/"
+                  >
                     Home
                   </NavLink>
                 </NavItem>
                 <NavItem>
                   <NavLink
-                    className="navTextL right_shift_nav "
+                    className="navTextL right_shift_nav glb_anim"
                     href="/AboutUs/"
                   >
                     About Us
@@ -56,19 +59,22 @@ class RSNav extends Component {
                 </NavItem>
                 <NavItem>
                   <NavLink
-                    className="navTextL right_shift_nav "
+                    className="navTextL right_shift_nav glb_anim"
                     href="/AttProf/"
                   >
                     Attorney Profiles
                   </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink className="navTextL right_shift_nav " href="/AoP/">
+                  <NavLink
+                    className="navTextL right_shift_nav glb_anim"
+                    href="/AoP/"
+                  >
                     Areas of Practice
                   </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink className="navTextL" href="/FAQ/">
+                  <NavLink className="navTextL glb_anim" href="/FAQ/">
                     FAQ
                   </NavLink>
                 </NavItem>

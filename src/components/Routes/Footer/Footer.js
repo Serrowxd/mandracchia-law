@@ -19,27 +19,27 @@ class Footer extends Component {
         >
           <Nav className="ml-auto" navbar>
             <NavItem className="m-auto">
-              <NavLink className="navTextS" href="/">
+              <NavLink className="navTextS glb_anim" href="/">
                 Home
               </NavLink>
             </NavItem>
             <NavItem className="m-auto">
-              <NavLink className="navTextS" href="/AboutUs/">
+              <NavLink className="navTextS glb_anim" href="/AboutUs/">
                 About Us
               </NavLink>
             </NavItem>
             <NavItem className="m-auto">
-              <NavLink className="navTextS" href="/AttProf/">
+              <NavLink className="navTextS glb_anim" href="/AttProf/">
                 Attorney Profiles
               </NavLink>
             </NavItem>
             <NavItem className="m-auto">
-              <NavLink className="navTextS" href="/AoP/">
+              <NavLink className="navTextS glb_anim" href="/AoP/">
                 Areas of Practice
               </NavLink>
             </NavItem>
             <NavItem className="m-auto">
-              <NavLink className="navTextS" href="/FAQ/">
+              <NavLink className="navTextS glb_anim" href="/FAQ/">
                 FAQ
               </NavLink>
             </NavItem>
@@ -84,7 +84,11 @@ class Footer extends Component {
                 <p className="middle_text">
                   Copyright © 2018 Mandracchia Law LLC. All Rights Reserved. ||
                   Design & Develeopment by:{' '}
-                  <a href="https://github.com/Serrowxd" target="_blank">
+                  <a
+                    href="https://github.com/Serrowxd"
+                    className="glb_anim"
+                    target="_blank"
+                  >
                     Kevin Jolley
                   </a>
                 </p>

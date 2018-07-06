@@ -59,7 +59,8 @@ class Upper extends Component {
             </Col>
           </Row>
           <h4>
-            Protect your Legal Rights! <span>Contact Mandracchia Law </span>
+            Protect your Legal Rights!{' '}
+            <span className="glb_anim">Contact Mandracchia Law </span>
             today to discuss your case.
           </h4>
         </Container>

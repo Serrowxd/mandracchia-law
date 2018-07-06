@@ -21,6 +21,20 @@ class Main extends Component {
       'Wills and Estates',
       'More Info',
     ],
+    // card_images: [
+    //   img1,
+    //   img2,
+    //   img3,
+    //   img4,
+    //   img5,
+    //   img6,
+    //   img7,
+    //   img8,
+    //   img9,
+    //   img10,
+    //   img11,
+    //   img12,
+    // ],
   };
   toggle = e => this.setState(state => ({ toggled: !state.toggled }));
   render() {

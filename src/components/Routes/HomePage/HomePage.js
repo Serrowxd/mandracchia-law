@@ -10,6 +10,8 @@ import Main from './Main/Main';
 import Lower from './Lower/Lower';
 import Footer from '../Footer/Footer';
 
+import OldMain from './Main/OldMain';
+
 // Nav Imports
 
 // import NavBar from '../../NavBar/NavBar';
@@ -34,7 +36,8 @@ class HomePage extends Component {
 
           <MeetUs />
 
-          <Main />
+          {/* <Main /> */}
+          <OldMain />
 
           <Lower />
           <Footer />
