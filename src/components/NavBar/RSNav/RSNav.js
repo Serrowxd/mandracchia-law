@@ -82,7 +82,7 @@ class RSNav extends Component {
             </Collapse>
             <h1>
               <strong>
-                Free Initial Consultation <br /> 610-584-0700
+                Call for Consultation <br /> 610-584-0700
               </strong>
             </h1>
           </Navbar>

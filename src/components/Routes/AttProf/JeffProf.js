@@ -20,19 +20,19 @@ class JeffProf extends Component {
     phone: ['546149845'],
     fax: ['5165496849'],
     self_text1: [
-      'A zealous advocate and former prosecutor employed with a full service law firm. Mr. Mandracchia is a lifelong resident of Montgomery County, PA and was born in Norristown, PA. He is a graduate of The Hill School, Duke University and St. Thomas University School of Law. Christopher D. Mandracchia, Esq. was admitted to practice in Pennsylvania in 2010 and in The United States District Court for the Eastern District of Pennsylvania on June 04, 2015. He is a successful trial attorney with the experience and skills to handle all of your litigation needs.',
+      'Mr. Soderberg has experience in all types of civil litigation in both federal and state courts. He has represented numerous businesses in complex commercial litigation matters ranging from small matters to multimillion-dollar disputes. Mr. Soderberg has represented clients in significant contract disputes, commercial loan workouts and foreclosures, construction cases, real estate matters, insurance disputes, and defamation, securities fraud, antitrust and employment discrimination claims. He has successfully defended businesses against product liability, medical malpractice and other tort claims. Additionally, he represents businesses in real estate and loan transactions.',
     ],
     self_text2: [
-      'Mr. Mandracchia handles Criminal Defense, DUI’s/DWI’s, Family Law, Personal Injury, Wills/Trusts, Traffic Violations, License Suspensions issues, and all of your litigation needs. Mr. Mandracchia strives to communicate, listen, and interact with his clients in order to give each client personalized representation. Each client will receive a unique and custom legal experience tailored to your individual case.',
+      'Mr. Soderberg has also successfully represented individuals in significant personal injury litigation matters, including medical malpractice, automobile product liability and premises liability claims.',
     ],
     self_text3: [
-      'After graduating from the Hill School, Mr. Mandracchia went to Duke University where he received his B.A. in English with a minor in History and was a member of the Duke University Varsity Wrestling Team. Mr. Mandracchia went on to attend St. Thomas University School of Law in Miami, Florida where he was an intern for a Criminal Defense Firm and graduated in 2010.',
+      'Mr. Soderberg began his career with a judicial clerkship in the United States District Court for the Eastern District of Pennsylvania. He spent several years handling commercial litigation matters at a large firm in Philadelphia. Before joining Mandracchia Law, LLC, Mr. Soderberg practiced law at a small firm in the Philadelphia suburbs where his responsibilities included managing a broad spectrum of litigation matters.',
     ],
     self_text4: [
-      'Attorney Mandracchia was an Assistant District Attorney in Berks County, PA from 2010 to 2015 where he gained valuable knowledge and experience of the criminal justice system. Mr. Mandracchia prosecuted and managed many cases from inception to trial. Mr. Mandracchia continued to expand his knowledge through specialized training while employed as a Prosecutor. He is a graduate of Top Gun at the Northeast Counterdrug Training Center in Ft. Indiantown Gap, PA. He gained valuable knowledge and training in various fields of criminal law and has specialized training dealing with Sex Crimes, Drug Crimes, Gang Crimes, as well as DUI/DWI matters.',
+      'Mr. Soderberg graduated with honors from Pennsylvania State University, and graduated summa cum laude from Villanova University School of Law where he was a member of the Order of the Coif and a managing editor of the Law Review. He is admitted to practice in the Commonwealth of Pennsylvania, U.S. District Court for the Eastern District of Pennsylvania, U.S. District Court for the Middle District of Pennsylvania and the U.S. Court of Appeals for the Third Circuit.',
     ],
     self_text5: [
-      'Mandracchia Law, LLC. is a full service law firm and handles all of your legal needs. If you want a zealous advocate, and a customized legal experience then give Christopher D. Mandracchia, Esquire a call. Please visit us at www.mmattorneys.com or call 610-584-0700.',
+      'Mr. Soderberg is active in his church and his community, including serving on several non-profit Boards.',
     ],
   };
   render() {
