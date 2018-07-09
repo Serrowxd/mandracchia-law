@@ -18,7 +18,7 @@ class MeetUs extends Component {
               <h1 className="fixRow_h1">
                 Meet the Team with
                 <strong>
-                  <span> over 100 years </span>
+                  <span> over 60 years </span>
                 </strong>
                 of combined legal experience.
               </h1>
