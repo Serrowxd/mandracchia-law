@@ -2,6 +2,13 @@
 
 ### An Attorney Website by Jared Cooper and Kevin Jolley.
 
+### Personal Notes - Kevin
+
+- Chris has pictures and is going to take more to add to the page.
+- Philadelphia/local for the front picture if possible.
+- Twitter/Instagram/Linkedin/Avvo accounts for this profile (possibly other attorneys).
+- `Refer to email for changes`
+
 #### MAJOR TO-DO
 
 - Add a "Contact" page and section.
@@ -22,6 +29,16 @@
 
 * Unsure about second image addition in `Upper` - might need to rework it.
 
+* **CREATE ROUTES ON CARDS**
+
+**Feedback**
+
+- Navigation needs to be lined up better - reference `apple.com` `wired.com` `latimes.com` {made small adjustment to this, will have to revaluate}.
+
+- Too much jammed on secondary pages, less text, bigger font.
+
+- Header Text feels off, possibly include Mandracchia in there? The staggered look is hard to read when you're trying to justify that it's Mandracchia Law and not just another laywer website.
+
 #### ISSUES
 
 - `index.css` - navigation is broken for the color scheme.
@@ -39,6 +56,8 @@
 `NavBar` = [EXPORT = NavBar] The non-reactstrap version || **This is currently not in use**
 
 `Footer` = [EXPORT = Footer] Was moved up a level into Routes, will be added to the bottom of every page.
+
+`NewMain` is currently being rendered as the main cards - check with Chris to see which one he prefers to use and adjust accordingly.
 
 ---
 

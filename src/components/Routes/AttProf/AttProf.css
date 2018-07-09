@@ -1,0 +1,36 @@
+.attprof {
+  margin-top: 3rem;
+}
+
+.name_att {
+  margin-top: 3rem;
+}
+
+.name_att h2 {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bold;
+  padding-top: 7rem;
+}
+
+.name_att h3 {
+  padding-top: 11rem;
+  margin-left: -8rem;
+  font-size: 1.6rem;
+}
+
+.jeff h2 {
+  padding-left: 2rem;
+}
+
+.jeff h3 {
+  padding-left: 3rem;
+}
+
+.col_bio {
+  margin-top: 1rem;
+}
+
+.jeff_pls {
+  margin-right: -6rem;
+}

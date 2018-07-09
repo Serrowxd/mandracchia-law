@@ -16,6 +16,7 @@ import OldMain from './Main/OldMain';
 
 // import NavBar from '../../NavBar/NavBar';
 import RSNav from '../../NavBar/RSNav/RSNav';
+import NewMain from './Main/NewMain/NewMain';
 
 // import PNav from '../../NavBar/PNav/PNav';
 
@@ -36,7 +37,8 @@ class HomePage extends Component {
 
           <MeetUs />
 
-          <Main />
+          {/* <Main /> */}
+          <NewMain />
           {/* <OldMain /> */}
 
           <Lower />
