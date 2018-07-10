@@ -1,11 +1,15 @@
 .navHead {
   font-size: 3.7rem;
+
+  background-color: transparent !important;
 }
 
 .navTextL {
   font-size: 1.6rem;
   padding-top: 2rem;
   margin-right: 6rem;
+
+  background-color: transparent !important;
 }
 
 .right_shift_nav {
@@ -13,11 +17,21 @@
 }
 
 .headNav {
-  max-width: 100%;
+  width: 100%;
   overflow: hidden;
+  position: absolute;
+  z-index: 9;
+
+  background-color: transparent !important;
 }
 
 .headNav h1 {
   font-size: 1.5rem;
   text-align: center;
+
+  background-color: transparent !important;
+}
+
+.collapse {
+  background-color: transparent !important;
 }

@@ -14,7 +14,7 @@ import OldMain from './Main/OldMain';
 
 // Nav Imports
 
-// import NavBar from '../../NavBar/NavBar';
+import NavBar from '../../NavBar/NavBar';
 import RSNav from '../../NavBar/RSNav/RSNav';
 import NewMain from './Main/NewMain/NewMain';
 

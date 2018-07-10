@@ -27,14 +27,19 @@ class RSNav extends Component {
     });
   }
 
+  onScroll = event => {
+    console.log(event);
+    console.log(event.type);
+  };
+
   // Constructor and setState are for the dropdown feature, not yet implemented.
 
   render() {
     return (
-      <div>
+      <div onScroll={this.onScroll}>
         {/* <h2> Available Days, Nights & Weekends! (111) 111-1111 </h2> */}
         <div className="headNav">
-          <Navbar color="dark" dark expand="lg" className="">
+          <Navbar color="" expand="lg" className="">
             <NavbarBrand className="navHead">
               <strong>Mandracchia Law</strong>
             </NavbarBrand>
