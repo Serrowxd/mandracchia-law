@@ -10,16 +10,19 @@ import {
 } from 'reactstrap';
 // import { Link } from 'react-router-dom';
 
-import './RSNav.css';
+import './HomeNav.css';
 
-class RSNav extends Component {
+class HomeNav extends Component {
   constructor(props) {
     super(props);
 
     this.toggle = this.toggle.bind(this);
     this.state = {
       isOpen: false,
+      scrolled: false,
+      isTop: true,
     };
+    this.navScroll = this.navScroll.bind(this);
   }
   toggle() {
     this.setState({
@@ -27,15 +30,39 @@ class RSNav extends Component {
     });
   }
 
+  componentDidMount() {
+    // window.addEventListener('scroll', this.navScroll);
+    window.addEventListener('scroll', () => {
+      const isTop = window.scrollY < 100;
+      if (isTop !== this.state.isTop) {
+        this.navScroll();
+      } else {
+        this.setState({ scrolled: false });
+      }
+    });
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.navScroll);
+  }
+
+  navScroll() {
+    this.setState({ scrolled: true });
+  }
+
   // Constructor and setState are for the dropdown feature, not yet implemented.
 
   render() {
+    const scrolled = this.state.scrolled;
     return (
       <div>
         {/* <h2> Available Days, Nights & Weekends! (111) 111-1111 </h2> */}
-        <div className="headNav">
-          <Navbar color="dark" dark expand="lg">
-            <NavbarBrand className="navHead">
+        <div
+          className="headNav_home"
+          onScroll={() => this.setState({ scrolled: true })}
+        >
+          <Navbar color="" expand="lg" className={scrolled ? 'color' : 'none'}>
+            <NavbarBrand className="navHead_home">
               <strong>Mandracchia Law</strong>
             </NavbarBrand>
             <NavbarToggler onClick={this.toggle} />
@@ -43,7 +70,7 @@ class RSNav extends Component {
               <Nav className="ml-auto" navbar>
                 <NavItem>
                   <NavLink
-                    className="navTextL right_shift_nav glb_anim"
+                    className="navTextL_home right_shift_nav glb_anim"
                     href="/"
                   >
                     Home
@@ -51,7 +78,7 @@ class RSNav extends Component {
                 </NavItem>
                 <NavItem>
                   <NavLink
-                    className="navTextL right_shift_nav glb_anim"
+                    className="navTextL_home right_shift_nav glb_anim"
                     href="/AboutUs/"
                   >
                     About Us
@@ -59,7 +86,7 @@ class RSNav extends Component {
                 </NavItem>
                 <NavItem>
                   <NavLink
-                    className="navTextL right_shift_nav glb_anim"
+                    className="navTextL_home right_shift_nav glb_anim"
                     href="/AttProf/"
                   >
                     Attorney Profiles
@@ -67,14 +94,14 @@ class RSNav extends Component {
                 </NavItem>
                 <NavItem>
                   <NavLink
-                    className="navTextL right_shift_nav glb_anim"
+                    className="navTextL_home right_shift_nav glb_anim"
                     href="/AoP/"
                   >
                     Areas of Practice
                   </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink className="navTextL glb_anim" href="/FAQ/">
+                  <NavLink className="navTextL_home glb_anim" href="/FAQ/">
                     FAQ
                   </NavLink>
                 </NavItem>
@@ -92,4 +119,6 @@ class RSNav extends Component {
   }
 }
 
-export default RSNav;
+export default HomeNav;
+
+// https://zoom.us/j/9671453711

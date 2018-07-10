@@ -1,0 +1,67 @@
+.navHead_home {
+  font-size: 3.7rem;
+  background-color: transparent !important;
+}
+
+.navTextL_home {
+  font-size: 1.6rem;
+  padding-top: 2rem;
+  margin-right: 6rem;
+
+  color: orangered;
+}
+
+.right_shift_nav {
+  margin-right: 5.5rem;
+}
+
+.headNav_home {
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  height: 100%;
+  z-index: 9;
+
+  background-color: transparent !important;
+}
+
+.headNav_home h1 {
+  font-size: 1.5rem;
+  text-align: center;
+
+  /* background-color: transparent !important; */
+}
+
+.collapse {
+  background-color: transparent !important;
+}
+
+.color {
+  background-color: #343a40 !important;
+  height: 4rem;
+  position: fixed;
+  min-width: 100%;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.none {
+  transition: background-color 0.5s ease-in-out;
+}
+
+.none .navHead_home {
+  transition: font-size 0.5s ease-in-out;
+}
+
+.none .navTextL_home {
+  transition: padding-top 0.5s ease-in-out;
+}
+
+.color .navTextL_home {
+  padding-top: 0;
+  transition: padding-top 0.5s ease-in-out;
+}
+
+.color .navHead_home {
+  font-size: 2.5rem;
+  transition: font-size 0.5s ease-in-out;
+}

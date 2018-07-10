@@ -15,7 +15,7 @@ import OldMain from './Main/OldMain';
 // Nav Imports
 
 import NavBar from '../../NavBar/NavBar';
-import RSNav from '../../NavBar/RSNav/RSNav';
+import HomeNav from '../../NavBar/HomeNav/HomeNav';
 import NewMain from './Main/NewMain/NewMain';
 
 // import PNav from '../../NavBar/PNav/PNav';
@@ -29,7 +29,7 @@ class HomePage extends Component {
   render() {
     return (
       <div>
-        <RSNav />
+        <HomeNav />
         <div className="mainThinHome">
           <Header />
           <LowerHeader />
