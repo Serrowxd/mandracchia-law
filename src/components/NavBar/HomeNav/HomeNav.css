@@ -54,11 +54,14 @@
 
 .none .navTextL_home {
   transition: padding-top 0.5s ease-in-out;
+  transition: margin-right 0.5s ease-in-out;
 }
 
 .color .navTextL_home {
   padding-top: 0;
+  margin-right: 7.5rem !important;
   transition: padding-top 0.5s ease-in-out;
+  transition: margin-right 0.5s ease-in-out;
 }
 
 .color .navHead_home {
