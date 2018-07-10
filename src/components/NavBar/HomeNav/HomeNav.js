@@ -61,7 +61,11 @@ class HomeNav extends Component {
           className="headNav_home"
           onScroll={() => this.setState({ scrolled: true })}
         >
-          <Navbar color="" expand="lg" className={scrolled ? 'color' : 'none'}>
+          <Navbar
+            color=""
+            expand="lg"
+            className={scrolled ? 'navscrolled' : 'none'}
+          >
             <NavbarBrand className="navHead_home">
               <strong>Mandracchia Law</strong>
             </NavbarBrand>
@@ -69,39 +73,27 @@ class HomeNav extends Component {
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="ml-auto" navbar>
                 <NavItem>
-                  <NavLink
-                    className="navTextL_home right_shift_nav glb_anim"
-                    href="/"
-                  >
+                  <NavLink className="navTextL_home" href="/">
                     Home
                   </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink
-                    className="navTextL_home right_shift_nav glb_anim"
-                    href="/AboutUs/"
-                  >
+                  <NavLink className="navTextL_home" href="/AboutUs/">
                     About Us
                   </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink
-                    className="navTextL_home right_shift_nav glb_anim"
-                    href="/AttProf/"
-                  >
+                  <NavLink className="navTextL_home" href="/AttProf/">
                     Attorney Profiles
                   </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink
-                    className="navTextL_home right_shift_nav glb_anim"
-                    href="/AoP/"
-                  >
+                  <NavLink className="navTextL_home" href="/AoP/">
                     Areas of Practice
                   </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink className="navTextL_home glb_anim" href="/FAQ/">
+                  <NavLink className="navTextL_home" href="/FAQ/">
                     FAQ
                   </NavLink>
                 </NavItem>
