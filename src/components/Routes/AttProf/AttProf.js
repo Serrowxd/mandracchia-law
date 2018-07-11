@@ -12,8 +12,6 @@ import Contact from '../../Contact/Contact';
 // import NavBar from '../../NavBar/NavBar';
 import RSNav from '../../NavBar/RSNav/RSNav';
 import Footer from '../Footer/Footer';
-import ChrisProf from './ChrisProf';
-import CharlesProf from './CharlesProf';
 
 class AttProf extends Component {
   state = {
