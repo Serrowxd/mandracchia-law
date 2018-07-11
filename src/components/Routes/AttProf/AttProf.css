@@ -1,3 +1,36 @@
+.att_prof_cont {
+  /* margin-top: 10rem; */
+  background-color: #f7f7f7 !important;
+  color: black;
+  margin-bottom: 4rem;
+}
+
+.att_prof_cont .row {
+  margin-top: 0rem;
+}
+
+.dumb_h2 {
+  padding-top: 3rem;
+  margin: 0 auto;
+  padding-bottom: 1rem;
+  font-size: 4rem;
+}
+
+.thesecond {
+  margin-top: -5rem;
+  font-size: 4rem;
+  color: orangered;
+}
+
+.att_prof_page {
+  background-color: #eeeeee !important;
+}
+
+.white_row {
+  background-color: #eeeeee !important;
+  margin-top: 10rem;
+}
+
 .attprof {
   margin-top: 3rem;
 }
@@ -33,4 +66,33 @@
 
 .jeff_pls {
   margin-right: -6rem;
+}
+
+/* HomePage */
+
+.pad_left {
+  margin-left: 5rem;
+}
+
+.jeff_pad {
+  margin-left: -4rem;
+}
+
+.chrs_img_fix {
+  margin-left: 2rem;
+}
+
+.att_prof_col {
+  background-color: #eeeeee !important;
+  color: black;
+}
+
+.att_prof_cont p {
+  font-size: 1.3rem;
+  padding-top: 1rem;
+  margin-bottom: 0rem;
+}
+
+.jeff_pad h1 {
+  padding-left: 2rem;
 }

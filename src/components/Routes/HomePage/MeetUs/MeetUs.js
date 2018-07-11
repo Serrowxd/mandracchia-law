@@ -7,6 +7,7 @@ import img from './placeholder.png';
 
 import att1 from '../../../../assets/attorney-mandracchia.png';
 import att2 from '../../../../assets/cm.jpg';
+import att3 from '../../../../assets/attorney-soderberg.png';
 
 class MeetUs extends Component {
   render() {
@@ -25,20 +26,31 @@ class MeetUs extends Component {
             </Col>
           </Row>
           <Row className="rowColorLight">
-            <Col sm={{ size: 5 }} className="lawyer_head">
-              <h1 className="lawyerName_hover glb_anim">
-                {' '}
-                Charles D. Mandracchia{' '}
-              </h1>
+            <Col sm={{ size: 3 }} className="lawyer_head">
+              <a href="/CharlesMandracchia">
+                <h1 className="lawyerName_hover glb_anim">
+                  Charles D. Mandracchia
+                </h1>
+              </a>
               <img class="imgLawyer" src={att1} alt="attorney" />
             </Col>
 
-            <Col sm={{ size: 5 }}>
-              <h1 className="lawyerName_hover glb_anim">
-                {' '}
-                Christopher D. Mandracchia{' '}
-              </h1>
+            <Col sm={{ size: 3 }} className="lawyer_head">
+              <a href="/ChristopherMandracchia">
+                <h1 className="lawyerName_hover glb_anim">
+                  Christopher D. Mandracchia
+                </h1>
+              </a>
               <img class="imgLawyer" src={att2} alt="attorney" />
+            </Col>
+
+            <Col sm={{ size: 3 }} className="lawyer_head">
+              <a href="/JeffreySoderberg">
+                <h1 className="lawyerName_hover glb_anim">
+                  Jeffrey W. <br /> Soderberg
+                </h1>
+              </a>
+              <img class="imgLawyer" src={att3} alt="attorney" />
             </Col>
           </Row>
         </Container>

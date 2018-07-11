@@ -6,7 +6,8 @@ import Header from './Header/Header';
 import LowerHeader from './LowerHeader/LowerHeader';
 import Upper from './Upper/Upper';
 import MeetUs from './MeetUs/MeetUs';
-import Main from './Main/Main';
+import NewMain from './Main/NewMain/NewMain';
+import Media from './Media/Media';
 import Lower from './Lower/Lower';
 import Footer from '../Footer/Footer';
 
@@ -16,7 +17,6 @@ import OldMain from './Main/OldMain';
 
 import NavBar from '../../NavBar/NavBar';
 import HomeNav from '../../NavBar/HomeNav/HomeNav';
-import NewMain from './Main/NewMain/NewMain';
 
 // import PNav from '../../NavBar/PNav/PNav';
 
@@ -37,9 +37,9 @@ class HomePage extends Component {
 
           <MeetUs />
 
-          {/* <Main /> */}
           <NewMain />
-          {/* <OldMain /> */}
+
+          <Media />
 
           <Lower />
           <Footer />

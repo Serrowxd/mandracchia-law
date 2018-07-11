@@ -13,13 +13,14 @@
 }
 
 .imgLawyer {
-  padding-top: 10vh;
-  padding-left: 3vh;
-  width: 70vh;
+  margin-right: 1rem;
+  padding-top: 4rem;
+  width: 25rem;
 }
 
 .lawyer_head {
-  margin-right: 18rem !important;
+  margin-left: 4.5rem;
+  margin-right: 4rem !important;
   text-align: center;
 }
 
@@ -38,4 +39,8 @@
 
 .lawyerName_hover:hover {
   color: orangered;
+}
+
+.lawyerName_hover {
+  color: black;
 }
