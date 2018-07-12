@@ -8,6 +8,8 @@ import {
   Button,
 } from 'reactstrap';
 
+import './NewMain.css';
+
 const Cards = props => {
   return (
     <Card className="mainCard">

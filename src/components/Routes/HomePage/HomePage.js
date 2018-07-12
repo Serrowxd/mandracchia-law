@@ -39,7 +39,7 @@ class HomePage extends Component {
 
           <NewMain />
 
-          <Media />
+          {/* <Media /> */}
 
           <Lower />
           <Footer />

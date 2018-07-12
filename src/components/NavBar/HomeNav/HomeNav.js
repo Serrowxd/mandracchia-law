@@ -31,7 +31,6 @@ class HomeNav extends Component {
   }
 
   componentDidMount() {
-    // window.addEventListener('scroll', this.navScroll);
     window.addEventListener('scroll', () => {
       const isTop = window.scrollY < 100;
       if (isTop !== this.state.isTop) {
@@ -112,5 +111,3 @@ class HomeNav extends Component {
 }
 
 export default HomeNav;
-
-// https://zoom.us/j/9671453711

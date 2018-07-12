@@ -40,7 +40,8 @@
 }
 
 .cardOverlay:hover .titleCard {
-  margin-top: 8%;
+  /* margin-top: 8% !important; */
+  margin-top: 6% !important;
 }
 
 .cardOverlay .button {
