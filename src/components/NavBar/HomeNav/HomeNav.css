@@ -1,5 +1,6 @@
 .navHead_home {
   font-size: 3.7rem;
+  /* color: orangered !important; */
   background-color: transparent !important;
 }
 
@@ -7,6 +8,7 @@
   font-size: 1.6rem;
   padding-top: 2rem;
   margin-right: 5.6rem;
+  /* color: orangered; */
   color: orangered;
 }
 
@@ -53,6 +55,7 @@
 }
 
 .none .navTextL_home {
+  /* color: orangered; */
   color: orangered;
   transition: color 0.2s ease-in-out;
   transition: padding-top 0.5s ease-in-out;

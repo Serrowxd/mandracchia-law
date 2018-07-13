@@ -11,6 +11,11 @@
 
 #### MAJOR TO-DO
 
+- **EXCESSIVELY MAJOR TODO** ~~
+- **REFACTOR CSS, COMPILE THEM INTO ONE, POSSIBLE USE OF `LESS` OR `SCSS`**
+- **BABBEL FOR CROSS-PLATFORM**
+- **REFACTOR INTO `MAIN` & `ANIMATIONS` ~ POSSIBLY `RESET` & `EXCESS` FOR BABBEL STUFF**
+
 - Add a "Contact" page and section.
 
 * NavBar needs to have at least 1 breakpoint before hitting the second layout - the upper portion clips out of its container. Currently set to `overflow: hidden;` in the CSS file.

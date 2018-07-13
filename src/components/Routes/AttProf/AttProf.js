@@ -38,19 +38,19 @@ class AttProf extends Component {
             <Col sm={{ size: 3, offset: 1 }} className="att_prof_col">
               <h1> Charles D. Mandracchia </h1>
               <a href="/CharlesMandracchia">
-                <img src={imgCharles} class="img" />
+                <img src={imgCharles} class="img_lawyer" />
               </a>
             </Col>
             <Col sm={{ size: 4 }} className="att_prof_col pad_left">
               <h1> Christopher D. Mandracchia </h1>
               <a href="/ChristopherMandracchia">
-                <img src={imgChris} class="img chrs_img_fix" />
+                <img src={imgChris} class="img_lawyer chrs_img_fix" />
               </a>
             </Col>
             <Col sm={{ size: 3 }} className="att_prof_col jeff_pad">
               <h1> Jeffrey W. Soderberg </h1>
               <a href="/JeffreySoderberg">
-                <img src={imgJeff} class="img" />
+                <img src={imgJeff} class="img_lawyer" />
               </a>
             </Col>
           </Row>

@@ -97,3 +97,14 @@
 .jeff_pad h1 {
   padding-left: 2rem;
 }
+
+/* animations */
+
+.img_lawyer {
+  transition: width 1s ease-in-out;
+  width: 25rem;
+}
+
+/* .img_lawyer:hover {
+  width: 27rem;
+} */
