@@ -2,6 +2,10 @@
 
 ### An Attorney Website by Jared Cooper and Kevin Jolley.
 
+### Front-End Design & </> - `Kevin Jolley`
+
+### Back-End Auth & </> - `Jared Cooper`
+
 ### Personal Notes - Kevin
 
 - Chris has pictures and is going to take more to add to the page.
