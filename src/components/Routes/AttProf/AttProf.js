@@ -3,9 +3,9 @@ import { Container, Row, Col } from 'reactstrap';
 
 import './AttProf.css';
 
-import imgChris from '../../../assets/lawyerimgs/cm pic.jpg';
-import imgCharles from '../../../assets/lawyerimgs/Mandracchia_0091.jpg';
-import imgJeff from '../../../assets/lawyerimgs/Soderberg_0107.jpg';
+// import imgChris from '../../../assets/lawyerimgs/cm pic.jpg';
+// import imgCharles from '../../../assets/lawyerimgs/Mandracchia_0091.jpg';
+// import imgJeff from '../../../assets/lawyerimgs/Soderberg_0107.jpg';
 
 import Contact from '../../Contact/Contact';
 
@@ -40,19 +40,22 @@ class AttProf extends Component {
             <Col sm={{ size: 3, offset: 1 }} className="att_prof_col">
               <h1> Charles D. Mandracchia </h1>
               <a href="/CharlesMandracchia">
-                <img src={imgCharles} class="img_lawyer" />
+                {/* <img src={imgCharles} class="img_lawyer" /> */}
+                <div className="charles_img" />
               </a>
             </Col>
             <Col sm={{ size: 4 }} className="att_prof_col pad_left">
               <h1> Christopher D. Mandracchia </h1>
               <a href="/ChristopherMandracchia">
-                <img src={imgChris} class="img_lawyer chrs_img_fix" />
+                {/* <img src={imgChris} class="img_lawyer chrs_img_fix" /> */}
+                <div className="chris_img" />
               </a>
             </Col>
             <Col sm={{ size: 3 }} className="att_prof_col jeff_pad">
               <h1> Jeffrey W. Soderberg </h1>
               <a href="/JeffreySoderberg">
-                <img src={imgJeff} class="img_lawyer" />
+                {/* <img src={imgJeff} class="img_lawyer" /> */}
+                <div className="jeff_img" />
               </a>
             </Col>
           </Row>

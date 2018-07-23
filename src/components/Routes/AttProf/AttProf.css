@@ -45,6 +45,7 @@
 .white_row {
   background-color: #eeeeee !important;
   margin-top: 10rem;
+  padding-bottom: 3rem;
 }
 
 .attprof {
@@ -152,4 +153,37 @@
 .lower_bio h3 {
   padding-bottom: 1rem;
   font-size: 1.3rem;
+}
+
+/* Test */
+
+.charles_img {
+  background-image: url(../../../assets/lawyerimgs/Mandracchia_0091.jpg);
+  content: '';
+  background-size: 100%;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  min-height: 35rem;
+  min-width: auto;
+}
+
+.chris_img {
+  background-image: url(../../../assets/lawyerimgs/cm_pic.jpg);
+  content: '';
+  background-size: 100%;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  min-height: 35rem;
+  min-width: auto;
+  margin-right: 9rem;
+}
+
+.jeff_img {
+  background-image: url(../../../assets/lawyerimgs/Soderberg_0107.jpg);
+  content: '';
+  background-size: 100%;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  min-height: 35rem;
+  min-width: auto;
 }

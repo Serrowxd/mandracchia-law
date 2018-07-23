@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 
-import img from '../../../../assets/slider-03.png';
-import img2 from '../../../../assets/slider-04.png';
+import img from '../../../../assets/newimgs/IMG_1958.JPG';
+import img2 from '../../../../assets/newimgs/IMG_1879.JPG';
 
 import './Upper.css';
 
@@ -24,9 +24,9 @@ class Upper extends Component {
             <Col sm={{ size: 6, offset: 5 }}>
               <h1 className="oMis oco"> Our Mission </h1>
               <p className="oMisP">
-                The attorneys of Mandracchia & McWhirk, LLC take pride in the
-                firm’s ability to represent clients zealously, yet ethically.
-                The emphasis is on providing successful results completed in an
+                The attorneys of Mandracchia Law, LLC take pride in the firm’s
+                ability to represent clients zealously, yet ethically. The
+                emphasis is on providing successful results completed in an
                 expeditious fashion. The firm utilizes a comprehensive knowledge
                 of the legal system combined with sound business judgment to
                 protect its clients' interests. This ideal permeates the work
@@ -34,9 +34,9 @@ class Upper extends Component {
                 McWhirk’s philosophy. The attorneys further understand that a
                 client’s need may shift to any number of areas through the
                 course of the relationship. When such situations arise, the
-                attorneys of Mandracchia & McWhirk are always prepared to offer
-                the same competent, zealous representation in that emerging area
-                as they displayed in the initial issues.
+                attorneys of Mandracchia Law are always prepared to offer the
+                same competent, zealous representation in that emerging area as
+                they displayed in the initial issues.
               </p>
               <p className="oMisP">{this.state.filler}</p>
               <p className="oMisP">{this.state.filler}</p>
@@ -44,7 +44,7 @@ class Upper extends Component {
           </Row>
           <Row>
             <Col sm={{ size: 6, offset: 0 }}>
-              <h1 className="oco"> Why Hire a Local Criminal Attorney? </h1>
+              <h1 className="oco"> Why Hire a Local Attorney? </h1>
               <p className="oMisP">{this.state.filler}</p>
             </Col>
           </Row>

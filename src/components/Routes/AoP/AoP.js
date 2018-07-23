@@ -35,12 +35,6 @@ class AoP extends Component {
     console.log(compName);
     this.setState({ comp: compName });
   }
-  // _renderSubComp() {
-  //   switch (this.state.render) {
-  //     case 'civil':
-  //       return <Civil />;
-  //   }
-  // }
 
   render() {
     return (
