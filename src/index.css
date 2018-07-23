@@ -136,6 +136,11 @@ body {
   font-family: Segoe UI Light !important;
 }
 
+/* html,
+body {
+  font-family: 'Montserrat', sans-serif !important;
+} */
+
 /* Background Color DARK */
 
 :root,

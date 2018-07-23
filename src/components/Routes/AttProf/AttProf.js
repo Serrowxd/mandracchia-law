@@ -3,9 +3,9 @@ import { Container, Row, Col } from 'reactstrap';
 
 import './AttProf.css';
 
-import imgChris from '../../../assets/cm.jpg';
-import imgCharles from '../../../assets/attorney-mandracchia.png';
-import imgJeff from '../../../assets/attorney-soderberg.png';
+import imgChris from '../../../assets/lawyerimgs/cm pic.jpg';
+import imgCharles from '../../../assets/lawyerimgs/Mandracchia_0091.jpg';
+import imgJeff from '../../../assets/lawyerimgs/Soderberg_0107.jpg';
 
 import Contact from '../../Contact/Contact';
 
@@ -29,11 +29,13 @@ class AttProf extends Component {
           <Row className="mainThin att_prof_cont">
             <h2 className="dumb_h2"> Pennsylvania Legal Representation </h2>
           </Row>
-          <Row className="mainThin att_prof_cont">
+
+          <Row className="mainThin att_prof_cont_foot">
             <h2 className="dumb_h2 thesecond"> We Fight for You! </h2>
 
-            <p> {this.state.filler} </p>
+            {/* <p> {this.state.filler} </p> */}
           </Row>
+
           <Row className="white_row">
             <Col sm={{ size: 3, offset: 1 }} className="att_prof_col">
               <h1> Charles D. Mandracchia </h1>

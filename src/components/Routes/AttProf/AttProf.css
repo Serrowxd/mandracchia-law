@@ -2,7 +2,23 @@
   /* margin-top: 10rem; */
   background-color: #f7f7f7 !important;
   color: black;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
+}
+
+.att_prof_cont h2 {
+  font-size: 5rem;
+}
+
+.att_prof_cont_foot {
+  /* margin-top: 10rem; */
+  /* background-color: #eeeeee !important; */
+  background-color: #f7f7f7 !important;
+  color: black;
+  margin-bottom: 5rem;
+}
+
+.att_prof_cont_foot h2 {
+  font-size: 4rem;
 }
 
 .att_prof_cont .row {
@@ -44,6 +60,9 @@
   font-size: 4rem;
   font-weight: bold;
   padding-top: 7rem;
+
+  /* Fixes the issue on Charles @ 1920x1080 */
+  padding-right: 2rem;
 }
 
 .name_att h3 {
@@ -61,7 +80,8 @@
 }
 
 .col_bio {
-  margin-top: 1rem;
+  margin-top: 5rem;
+  font-size: 1.3rem;
 }
 
 .jeff_pls {
@@ -103,8 +123,23 @@
 .img_lawyer {
   transition: width 1s ease-in-out;
   width: 25rem;
+  padding-top: 2rem;
 }
 
 /* .img_lawyer:hover {
   width: 27rem;
 } */
+
+.lower_bio {
+  margin-top: 5rem;
+}
+
+.AoP_bio,
+.admitted_bio,
+.education_bio {
+  text-align: center;
+}
+
+.attprof img {
+  margin-top: 4rem;
+}
