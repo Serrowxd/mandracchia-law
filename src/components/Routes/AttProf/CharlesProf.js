@@ -32,7 +32,7 @@ class CharlesProf extends Component {
       'Mr. Mandracchia is active in his church and community and has served on many non-profit Boards. He has three children and one grandchild and enjoys his time with his family.',
     ],
     self_text5: [
-      'Mandracchia Law, LLC. is a full service law firm and handles all of your legal needs. If you want a zealous advocate, and a customized legal experience then give Christopher D. Mandracchia, Esquire a call. Please visit us at www.mmattorneys.com or call 610-584-0700.',
+      'Mandracchia Law, LLC. is a full service law firm and handles all of your legal needs. If you want a zealous advocate, and a customized legal experience then give Charles D. Mandracchia a call. Please visit us at www.mmattorneys.com or call 610-584-0700.',
     ],
   };
   render() {
@@ -108,6 +108,11 @@ class CharlesProf extends Component {
               <h3> B.A., Villanova University, 1985 </h3>
             </Col>
           </Row>
+          {/* <Row>
+            <Col sm={{ size: 10, offset: 1 }} className="col_bio">
+              <p>{this.state.self_text5}</p>
+            </Col>
+          </Row> */}
         </Container>
         <Footer />
       </div>

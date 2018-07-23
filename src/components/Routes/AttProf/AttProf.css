@@ -143,3 +143,13 @@
 .attprof img {
   margin-top: 4rem;
 }
+
+.lower_bio h1 {
+  color: orangered;
+  padding-bottom: 1rem;
+}
+
+.lower_bio h3 {
+  padding-bottom: 1rem;
+  font-size: 1.3rem;
+}
