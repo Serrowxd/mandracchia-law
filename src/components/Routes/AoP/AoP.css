@@ -18,3 +18,41 @@
 .contact_col {
   margin-top: -2rem;
 }
+
+/* Routes */
+
+.civil_div h3 {
+  font-size: 1.3rem;
+}
+
+.civil_div h1 {
+  color: orangered;
+  font-size: 2.3rem;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.civil_div h2 {
+  font-size: 1.9rem;
+  color: gold;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.civil_flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.civil_div ul {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.civil_div li {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 1.2rem;
+}

@@ -26,14 +26,15 @@ class AoP extends Component {
   constructor() {
     super();
     this.state = {
-      comp: <Holder />,
-      content: 'Henlo (OvO")',
+      comp: <Criminal />,
+      title: 'Areas of Practice',
     };
   }
 
-  handleClick(compName, e) {
+  handleClick(compName, compTitle, e) {
     console.log(compName);
     this.setState({ comp: compName });
+    this.setState({ title: compTitle });
   }
 
   render() {
@@ -42,68 +43,97 @@ class AoP extends Component {
         {/* <NavBar /> */}
         <RSNav />
         <Container fluid className="upperCon">
-          <h1 className="centerH"> Areas of Practice </h1>
+          {/* <h1 className="centerH"> Areas of Practice </h1> */}
+          <h1 className="centerH"> {this.state.title} </h1>
           <Row>
             <Col sm={{ size: 2, offset: 0 }}>
               <ListGroup flush>
                 <ListGroupItem
-                  onClick={this.handleClick.bind(this, <Holder />)}
+                  onClick={this.handleClick.bind(
+                    this,
+                    <Holder />,
+                    'Areas of Practice'
+                  )}
                   tag="a"
                   href="#"
                 >
                   Main
                 </ListGroupItem>
                 <ListGroupItem
-                  onClick={this.handleClick.bind(this, <Civil />)}
+                  onClick={this.handleClick.bind(
+                    this,
+                    <Civil />,
+                    'Civil Litigation'
+                  )}
                   tag="a"
                   href="#"
                 >
                   Civil Litigation
                 </ListGroupItem>
                 <ListGroupItem
-                  onClick={this.handleClick.bind(this, <Traffic />)}
+                  onClick={this.handleClick.bind(this, <Traffic />, 'Traffic')}
                   tag="a"
                   href="#"
                 >
                   Traffic Matters
                 </ListGroupItem>
                 <ListGroupItem
-                  onClick={this.handleClick.bind(this, <Personal />)}
+                  onClick={this.handleClick.bind(
+                    this,
+                    <Personal />,
+                    'Personal'
+                  )}
                   tag="a"
                   href="#"
                 >
                   Personal Injury
                 </ListGroupItem>
                 <ListGroupItem
-                  onClick={this.handleClick.bind(this, <Criminal />)}
+                  onClick={this.handleClick.bind(
+                    this,
+                    <Criminal />,
+                    'Criminal'
+                  )}
                   tag="a"
                   href="#"
                 >
                   Criminal
                 </ListGroupItem>
                 <ListGroupItem
-                  onClick={this.handleClick.bind(this, <Domestic />)}
+                  onClick={this.handleClick.bind(
+                    this,
+                    <Domestic />,
+                    'Domestic'
+                  )}
                   tag="a"
                   href="#"
                 >
                   Domestic
                 </ListGroupItem>
                 <ListGroupItem
-                  onClick={this.handleClick.bind(this, <Estates />)}
+                  onClick={this.handleClick.bind(this, <Estates />, 'Estates')}
                   tag="a"
                   href="#"
                 >
                   Wills & Estates
                 </ListGroupItem>
                 <ListGroupItem
-                  onClick={this.handleClick.bind(this, <RealEstate />)}
+                  onClick={this.handleClick.bind(
+                    this,
+                    <RealEstate />,
+                    'RealEstate'
+                  )}
                   tag="a"
                   href="#"
                 >
                   Real Estate
                 </ListGroupItem>
                 <ListGroupItem
-                  onClick={this.handleClick.bind(this, <Commercial />)}
+                  onClick={this.handleClick.bind(
+                    this,
+                    <Commercial />,
+                    'Commerical'
+                  )}
                   tag="a"
                   href="#"
                 >
