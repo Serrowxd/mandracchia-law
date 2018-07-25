@@ -26,7 +26,7 @@ class AoP extends Component {
   constructor() {
     super();
     this.state = {
-      comp: <Criminal />,
+      comp: <Holder />,
       title: 'Areas of Practice',
     };
   }

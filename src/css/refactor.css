@@ -1,0 +1,452 @@
+/* ~~ Global Styling - App.css ~~ */
+
+div {
+  background-color: #f8f9fa;
+}
+
+/* h2 {
+  text-align: end;
+  padding-right: 2%;
+  padding-top: 0.3rem;
+} */
+
+p {
+  padding-top: 0.6rem;
+}
+
+.centerH {
+  text-align: center;
+}
+
+.mainThin {
+  margin-top: 3%;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
+.headThin {
+  margin-top: 3%;
+  text-align: center;
+}
+
+/* this makes the Nav sticky */
+.sticky {
+  margin-bottom: 2rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* ~~ Navigation - HomeNav.css ~~ */
+
+.navHead_home {
+  font-size: 3.7rem;
+  /* color: orangered !important; */
+  background-color: transparent !important;
+}
+
+.navTextL_home {
+  font-size: 1.6rem;
+  padding-top: 2rem;
+  margin-right: 5.6rem;
+  /* color: orangered; */
+  color: orangered;
+}
+
+.right_shift_nav {
+  margin-right: 5.5rem;
+}
+
+.headNav_home {
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  /* height: 100%; */
+  z-index: 9;
+
+  background-color: transparent !important;
+}
+
+.headNav_home h1 {
+  font-size: 1.5rem;
+  text-align: center;
+
+  /* background-color: transparent !important; */
+}
+
+.collapse {
+  background-color: transparent !important;
+}
+
+.navscrolled {
+  background-color: #343a40 !important;
+  opacity: 0.9;
+  height: 4rem;
+  position: fixed;
+  min-width: 100%;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.none {
+  transition: background-color 0.5s ease-in-out;
+}
+
+.none .navHead_home {
+  transition: font-size 0.5s ease-in-out;
+}
+
+.none .navTextL_home {
+  /* color: orangered; */
+  color: orangered;
+  transition: color 0.2s ease-in-out;
+  transition: padding-top 0.5s ease-in-out;
+  transition: margin-right 0.5s ease-in-out;
+}
+
+.navscrolled .navTextL_home {
+  padding-top: 0;
+  margin-right: 7.5rem !important;
+  transition: color 0.2s ease-in-out;
+  transition: padding-top 0.5s ease-in-out;
+  transition: margin-right 0.5s ease-in-out;
+}
+
+.navscrolled .navHead_home {
+  font-size: 2.5rem;
+  transition: font-size 0.5s ease-in-out;
+}
+
+.none .navTextL_home:hover {
+  transition: color 0.2s ease-in-out;
+  color: white;
+}
+
+.navscrolled .navTextL_home:hover {
+  transition: color 0.2s ease-in-out;
+  color: white;
+}
+
+/* ~~ Navigation - RSNav.css ~~ */
+.navHead {
+  font-size: 3.7rem;
+}
+
+.navTextL {
+  font-size: 1.6rem;
+  padding-top: 2rem;
+  margin-right: 6rem;
+}
+
+.right_shift_nav {
+  margin-right: 5.5rem;
+}
+
+.headNav {
+  width: 100%;
+  overflow: hidden;
+}
+
+.headNav h1 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+/* ~~ Routes ~~ */
+
+/* ~~ HomePage Header.css ~~ */
+
+.jumboColor {
+  /* padding-top: 5%; this is for the sticky RSNav */
+  background-color: #f8f9fa;
+  background-image: url('../assets/aboutus-banner-bg.jpg');
+  background-repeat: no-repeat;
+  /* width: 196.7vh !important; */
+  width: 106.3%; /* This fixes it in Chrome but throws off the layout */
+  margin-top: -1.2rem;
+  margin-left: -3.5rem !important;
+  background-position: center;
+  /* height: 740px; */
+
+  background-attachment: fixed;
+
+  padding-top: 10rem;
+}
+
+.headJumboButton {
+  width: 30rem;
+  height: 4rem;
+  font-size: 2rem;
+  background-color: #a74e3a;
+  color: white;
+  border: none;
+  /* margin-left: 6rem; */
+}
+
+.headJumboButton:hover {
+  color: black;
+  background: #f8f9fa;
+}
+
+.shift_right {
+  margin-left: 2%;
+}
+
+/* ~~ HomePage Lower.css ~~ */
+
+/* temporary padding for framework */
+
+.LowerCon {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.input_here {
+  padding: 15px !important;
+  margin: 25px;
+}
+
+.LowerCon h2 {
+  padding-bottom: 2rem;
+  text-align: center;
+  font-size: 5rem;
+}
+
+.submit {
+  margin-top: 3rem;
+  margin-left: 18rem;
+  font-size: 2rem;
+  width: 18rem;
+}
+
+.message {
+  padding-bottom: 12rem !important;
+  height: 15rem;
+  /* Note that Wordwrap does not work */
+}
+
+.work_together {
+  margin-top: -0.5rem;
+  font-size: 3.5rem;
+}
+
+/* ~~ HomePage LowerHeader.css ~~ */
+
+.lightDiv,
+.rowColorLight,
+.light_div,
+.LowerHeaderCon div {
+  background-color: #eeeeee !important;
+  color: black;
+  padding: 0rem;
+  text-align: center;
+}
+
+.light_div_djej {
+  margin-top: -2rem !important;
+  margin-left: -6vh !important;
+  margin-right: -6vh !important;
+}
+
+.award {
+  padding-left: 9rem;
+  padding-top: 2rem;
+  margin-right: 6rem;
+  padding-bottom: 1rem;
+
+  /* kinda hacked these into place,
+   will need to come back to this */
+}
+
+/* ~~ HomePage NewMain.css */
+
+.button {
+  margin-left: 12.5rem !important;
+}
+
+.small_text {
+  margin-top: -1rem !important;
+  text-align: center !important;
+}
+
+.titleCard {
+  font-weight: bold;
+}
+
+/* Animations */
+
+/* Card Keyframe Animation */
+
+.cardOverlay:hover .button {
+  animation: slideup 0.6s forwards;
+}
+
+@keyframes slideup {
+  0% {
+    opacity: 0;
+    margin-top: 50%;
+  }
+  30% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 10%;
+  }
+}
+
+/* Transition Animation */
+
+.cardOverlay .titleCard {
+  transition: margin-top 0.5s ease-in-out;
+}
+
+.cardOverlay:hover .titleCard {
+  /* margin-top: 8% !important; */
+  margin-top: 6% !important;
+}
+
+.cardOverlay .button {
+  transition: margin-top 2s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.cardOverlay:hover .new {
+  margin-top: 0 !important;
+  opacity: 1;
+}
+
+.card_img {
+  height: 100%;
+}
+
+.small_text {
+  transition: margin-top 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+  font-size: 1.2rem;
+  opacity: 0;
+}
+
+.cardOverlay:hover .small_text {
+  margin-top: 1rem;
+  opacity: 1;
+}
+
+/* ~~ HomePage Media.css ~~ */
+
+/* Find baseline padding per break */
+.jfj {
+  margin-top: 5rem !important;
+}
+
+/* Uncomplete */
+
+/* ~~ HomePage Meetus.css ~~ */
+
+.lightDiv,
+.rowColorLight,
+.light_div,
+.MeetUsCon div {
+  background-color: #eeeeee !important;
+  color: black;
+  padding: 3rem;
+  text-align: center !important;
+}
+
+.MeetUsCon div {
+  margin-top: 8rem;
+}
+
+.imgLawyer {
+  margin-right: 1rem;
+  padding-top: 4rem;
+  width: 25rem;
+}
+
+.lawyer_head {
+  margin-left: 4.5rem;
+  margin-right: 4rem !important;
+  text-align: center;
+}
+
+.fixRow {
+  margin-bottom: -22rem;
+}
+
+.fixCol {
+  margin-top: -1rem !important;
+}
+
+.fixRow_h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.lawyerName_hover:hover {
+  color: orangered;
+}
+
+.lawyerName_hover {
+  color: black;
+}
+
+/* ~~ HomePage Upper.css ~~ */
+
+.img {
+  width: 25rem;
+}
+
+/* temp margin for spacing */
+.upperCon {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.oMis {
+  text-align: center;
+}
+
+.oMisP {
+  font-size: 1.4rem;
+}
+
+.oco {
+  color: orangered !important;
+  padding-top: 2rem;
+}
+
+.upperCon span {
+  color: orangered;
+}
+
+.upperCon h4 {
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.upperCon span:hover {
+  color: white;
+}
+
+.tall {
+  padding-top: 11rem;
+  margin-left: -2rem;
+  width: 90vh;
+}
+
+.tall2 {
+  width: 90vh;
+  margin-top: -15rem;
+  padding-left: 2rem;
+}
+
+/* ~~ HomePage HomePage.css ~~ */
+
+.center {
+  text-align: center;
+}
+
+.mainThinHome {
+  margin-top: 1%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
