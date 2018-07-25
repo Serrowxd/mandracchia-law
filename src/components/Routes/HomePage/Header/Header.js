@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Jumbotron, Button } from 'reactstrap';
 
-import './Header.css';
+// import './Header.css';
 
 import ClickModal from './ClickModal/ClickModal';
 

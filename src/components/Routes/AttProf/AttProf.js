@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 
-import './AttProf.css';
+// import './AttProf.css';
 
 // import imgChris from '../../../assets/lawyerimgs/cm pic.jpg';
 // import imgCharles from '../../../assets/lawyerimgs/Mandracchia_0091.jpg';

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 
-import './AttProf.css';
+// import './AttProf.css';
 
 import Contact from '../../Contact/Contact';
 

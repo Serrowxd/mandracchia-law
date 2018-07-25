@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'reactstrap';
 
 import img from './../../../assets/law.jpg';
 
-import './AboutUs.css';
+// import './AboutUs.css';
 
 import Contact from '../../Contact/Contact';
 

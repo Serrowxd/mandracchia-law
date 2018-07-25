@@ -8,7 +8,7 @@ import {
   Button,
 } from 'reactstrap';
 
-import './NewMain.css';
+// import './NewMain.css';
 
 const Cards = props => {
   return (

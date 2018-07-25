@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 
-import './LowerHeader.css';
+// import './LowerHeader.css';
 
 // import img from './placeholder.png';
 

@@ -10,7 +10,7 @@ import {
   Button,
 } from 'reactstrap';
 
-import './Lower.css';
+// import './Lower.css';
 
 class Lower extends Component {
   state = {

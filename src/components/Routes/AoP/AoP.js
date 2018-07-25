@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Container, Row, Col, ListGroup, ListGroupItem } from 'reactstrap';
 import { Route } from 'react-router';
 
-import './AoP.css';
+// import './AoP.css';
 
 // Route Imports
 import Civil from './aoproutes/civil';

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Row, Col, Navbar, Nav, NavItem, NavLink } from 'reactstrap';
 
-import './Footer.css';
+// import './Footer.css';
 
 import img from '../../../assets/smedia/Facebook-icon.png';
 

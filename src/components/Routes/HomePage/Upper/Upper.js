@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'reactstrap';
 import img from '../../../../assets/newimgs/IMG_1958.JPG';
 import img2 from '../../../../assets/newimgs/IMG_1879.JPG';
 
-import './Upper.css';
+// import './Upper.css';
 
 class Upper extends Component {
   state = {

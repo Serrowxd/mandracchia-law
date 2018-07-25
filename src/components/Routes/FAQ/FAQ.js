@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 
-import './FAQ.css';
+// import './FAQ.css';
 
 import Contact from '../../Contact/Contact';
 

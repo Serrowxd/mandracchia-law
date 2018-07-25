@@ -10,7 +10,7 @@ import {
   CardImgOverlay,
 } from 'reactstrap';
 
-import './Media.css';
+// import './Media.css';
 
 class Media extends Component {
   render() {

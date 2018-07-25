@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './NewMain.css';
+// import './NewMain.css';
 
 import Cards from './NewCards';
 

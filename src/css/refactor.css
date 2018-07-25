@@ -450,3 +450,312 @@ p {
   padding-left: 3%;
   padding-right: 3%;
 }
+
+/* ~~ AboutUs.css ~~ */
+
+span {
+  color: orangered;
+}
+
+.aob_img {
+  width: 90%;
+  margin: 0rem 1.5rem;
+}
+
+.upperCon .centerH {
+  padding-bottom: 2rem;
+}
+
+.aop_cont p {
+  font-size: 18px !important;
+}
+
+/* ~~ AoP.css ~~ */
+
+.list-group-item {
+  background-color: transparent;
+  border: 1px solid orangered;
+  color: white;
+  font-size: 1.5rem;
+
+  transition: color 0.5s ease;
+}
+
+.list-group-item:hover {
+  color: gold;
+}
+
+.list-group {
+  width: 12rem;
+}
+
+.contact_col {
+  margin-top: -2rem;
+}
+
+/* Routes */
+
+.civil_div h3 {
+  font-size: 1.3rem;
+}
+
+.civil_div h1 {
+  color: orangered;
+  font-size: 2.3rem;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.civil_div h2 {
+  font-size: 1.9rem;
+  color: gold;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.civil_flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.civil_div ul {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.civil_div li {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+/* ~~ AttProf.css ~~ */
+
+.att_prof_cont {
+  /* margin-top: 10rem; */
+  background-color: #f7f7f7 !important;
+  color: black;
+  margin-bottom: 3rem;
+}
+
+.att_prof_cont h2 {
+  font-size: 5rem;
+}
+
+.att_prof_cont_foot {
+  /* margin-top: 10rem; */
+  /* background-color: #eeeeee !important; */
+  background-color: #f7f7f7 !important;
+  color: black;
+  margin-bottom: 5rem;
+}
+
+.att_prof_cont_foot h2 {
+  font-size: 4rem;
+}
+
+.att_prof_cont .row {
+  margin-top: 0rem;
+}
+
+.dumb_h2 {
+  padding-top: 3rem;
+  margin: 0 auto;
+  padding-bottom: 1rem;
+  font-size: 4rem;
+}
+
+.thesecond {
+  margin-top: -5rem;
+  font-size: 4rem;
+  color: orangered;
+}
+
+.att_prof_page {
+  background-color: #eeeeee !important;
+}
+
+.white_row {
+  background-color: #eeeeee !important;
+  margin-top: 10rem;
+  padding-bottom: 3rem;
+}
+
+.attprof {
+  margin-top: 3rem;
+}
+
+.name_att {
+  margin-top: 3rem;
+}
+
+.name_att h2 {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bold;
+  padding-top: 7rem;
+
+  /* Fixes the issue on Charles @ 1920x1080 */
+  padding-right: 2rem;
+}
+
+.name_att h3 {
+  padding-top: 11rem;
+  margin-left: -8rem;
+  font-size: 1.6rem;
+}
+
+.jeff h2 {
+  padding-left: 2rem;
+}
+
+.jeff h3 {
+  padding-left: 3rem;
+}
+
+.col_bio {
+  margin-top: 5rem;
+  font-size: 1.3rem;
+}
+
+.jeff_pls {
+  margin-right: -6rem;
+}
+
+/* HomePage */
+
+.pad_left {
+  margin-left: 5rem;
+}
+
+.jeff_pad {
+  margin-left: -4rem;
+}
+
+.chrs_img_fix {
+  margin-left: 2rem;
+}
+
+.att_prof_col {
+  padding-top: 3rem;
+  background-color: #eeeeee !important;
+  color: black;
+}
+
+.att_prof_cont p {
+  font-size: 1.3rem;
+  padding-top: 1rem;
+  margin-bottom: 0rem;
+}
+
+.jeff_pad h1 {
+  padding-left: 2rem;
+}
+
+/* animations */
+
+.img_lawyer {
+  transition: width 1s ease-in-out;
+  width: 25rem;
+  padding-top: 2rem;
+}
+
+/* .img_lawyer:hover {
+  width: 27rem;
+} */
+
+.lower_bio {
+  margin-top: 5rem;
+}
+
+.AoP_bio,
+.admitted_bio,
+.education_bio {
+  text-align: center;
+}
+
+.attprof img {
+  margin-top: 4rem;
+}
+
+.lower_bio h1 {
+  color: orangered;
+  padding-bottom: 1rem;
+}
+
+.lower_bio h3 {
+  padding-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+/* Test */
+
+.charles_img {
+  background-image: url(../assets/lawyerimgs/Mandracchia_0091.jpg);
+  content: '';
+  background-size: 100%;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  min-height: 35rem;
+  min-width: auto;
+}
+
+.chris_img {
+  background-image: url(../assets/lawyerimgs/cm_pic.jpg);
+  content: '';
+  background-size: 100%;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  min-height: 35rem;
+  min-width: auto;
+  margin-right: 9rem;
+}
+
+.jeff_img {
+  background-image: url(../assets/lawyerimgs/Soderberg_0107.jpg);
+  content: '';
+  background-size: 100%;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  min-height: 35rem;
+  min-width: auto;
+}
+
+/* ~~ Footer.css ~~ */
+
+.container {
+  margin: 0;
+  padding: 0;
+  padding-top: 1rem;
+  width: 100%;
+}
+
+.footName {
+  margin-right: 10%;
+}
+
+.navTextS {
+  font-size: 1.3rem;
+  padding-top: 2rem;
+}
+
+.footDiv {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+}
+
+.footHead {
+  font-size: 3rem;
+}
+
+.middle_text {
+  padding-top: 1rem;
+}
+
+.foot_smedia {
+  width: 6rem;
+}
