@@ -1,0 +1,34 @@
+div {
+  background-color: #f8f9fa;
+}
+p {
+  padding-top: 0.6rem;
+}
+.centerH,
+.headThin,
+.headNav_home h1,
+.headNav h1,
+.LowerCon h2,
+.lightDiv,
+.rowColorLight,
+.light_div,
+.LowerHeaderCon div,
+.lawyer_head,
+.fixRow_h1,
+.oMis,
+.upperCon span,
+.center,
+.civil_div h1,
+.civil_div h2,
+.name_att h2,
+.AoP_bio,
+.amitted_bio,
+.education_bio,
+.footDiv {
+  text-align: center;
+}
+.mainThin {
+  margin-top: 3%;
+  padding-left: 6%;
+  padding-right: 6%;
+}
