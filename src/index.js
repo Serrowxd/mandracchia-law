@@ -6,7 +6,7 @@ import registerServiceWorker from './registerServiceWorker';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 // CSS Refactor
-import './css/refactor.css';
+import './css/styles.css';
 
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 

@@ -17,11 +17,11 @@ class Upper extends Component {
     return (
       <div>
         <Container fluid className="upperCon">
-          <Row className="rowColorDark">
-            <Col sm={{ size: 1, offset: 0 }}>
+          <div class="upper_top">
+            <div class="col_left">
               <img class="img tall" src={img} alt="placeholder" />
-            </Col>
-            <Col sm={{ size: 6, offset: 5 }}>
+            </div>
+            <div class="col_right">
               <h1 className="oMis oco"> Our Mission </h1>
               <p className="oMisP">
                 The attorneys of Mandracchia Law, LLC take pride in the firm’s
@@ -40,24 +40,20 @@ class Upper extends Component {
               </p>
               <p className="oMisP">{this.state.filler}</p>
               <p className="oMisP">{this.state.filler}</p>
-            </Col>
-          </Row>
-          <Row>
-            <Col sm={{ size: 6, offset: 0 }}>
+            </div>
+          </div>
+          <div class="upper_bottom">
+            <div class="col_left">
               <h1 className="oco"> Why Hire a Local Attorney? </h1>
               <p className="oMisP">{this.state.filler}</p>
-            </Col>
-          </Row>
 
-          <Row>
-            <Col sm={{ size: 6, offset: 0 }}>
               <h1 className="oco"> Why Hire Mandracchia Law? </h1>
               <p className="oMisP">{this.state.filler}</p>
-            </Col>
-            <Col sm={{ size: 1, offset: 0 }}>
+            </div>
+            <div class="col_right">
               <img class="img tall2" src={img2} alt="img2" />
-            </Col>
-          </Row>
+            </div>
+          </div>
           <h4>
             Protect your Legal Rights!{' '}
             <span className="glb_anim">Contact Mandracchia Law </span>

@@ -158,9 +158,9 @@ p {
 .jumboColor {
   /* padding-top: 5%; this is for the sticky RSNav */
   /* background-color: #f8f9fa; */
-  /* background-image: url('../assets/aboutus-banner-bg.jpg'); */
+  background-image: url('../assets/aboutus-banner-bg.jpg');
   background-color: rgb(24, 24, 24) !important;
-  background-image: url('../assets/unnamed60darkauto.png');
+  /* background-image: url('../assets/unnamed60darkauto.png'); */
   background-repeat: no-repeat;
   /* width: 196.7vh !important; */
   width: 106.3%;
