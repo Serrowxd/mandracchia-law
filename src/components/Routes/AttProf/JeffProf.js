@@ -7,7 +7,7 @@ import Contact from '../../Contact/Contact';
 
 import AttConst from './AttConst/AttConst';
 
-import img from '../../../assets/attorney-soderberg.png';
+import img from '../../../assets/lawyerimgs/Soderberg_0107.jpg';
 
 import RSNav from '../../NavBar/RSNav/RSNav';
 import Footer from '../Footer/Footer';

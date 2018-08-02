@@ -16,11 +16,12 @@
 #### MAJOR TO-DO
 
 - **EXCESSIVELY MAJOR TODO** ~~
-- **REFACTOR CSS, COMPILE THEM INTO ONE, POSSIBLE USE OF `LESS` OR `SCSS`**
+- **REFACTOR CSS, COMPILE THEM INTO ONE, USE LESS**
 - **BABBEL FOR CROSS-PLATFORM**
-- **REFACTOR INTO `MAIN` & `ANIMATIONS` ~ POSSIBLY `RESET` & `EXCESS` FOR BABBEL STUFF**
+- **REFACTOR INTO `MAIN` & `ANIMATIONS` ~ POSSIBLY `RESET` & `EXCESS` FOR BABEL STUFF - DO IT IN LESS**
+- **PROFILE IMAGES ARE BROKEN WHEN USING THE NEW PICTURES, WILL NEED TO BE ADJUSTED FOR HEIGHT**
 
-- Add a "Contact" page and section.
+- Add a "Contact" page and section, **replace FAQ**
 
 * NavBar needs to have at least 1 breakpoint before hitting the second layout - the upper portion clips out of its container. Currently set to `overflow: hidden;` in the CSS file.
 

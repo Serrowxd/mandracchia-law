@@ -7,7 +7,7 @@ import Contact from '../../Contact/Contact';
 
 import AttConst from './AttConst/AttConst';
 
-import img from '../../../assets/cm.jpg';
+import img from '../../../assets/lawyerimgs/unnamednew.jpg';
 
 import RSNav from '../../NavBar/RSNav/RSNav';
 import Footer from '../Footer/Footer';
