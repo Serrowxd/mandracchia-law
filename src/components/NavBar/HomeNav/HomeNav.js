@@ -10,7 +10,7 @@ import {
 } from 'reactstrap';
 // import { Link } from 'react-router-dom';
 
-import './HomeNav.css';
+// import './HomeNav.css';
 
 class HomeNav extends Component {
   constructor(props) {
@@ -71,31 +71,33 @@ class HomeNav extends Component {
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="ml-auto" navbar>
-                <NavItem>
-                  <NavLink className="navTextL_home" href="/">
-                    Home
-                  </NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink className="navTextL_home" href="/AboutUs/">
-                    About Us
-                  </NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink className="navTextL_home" href="/AttProf/">
-                    Attorney Profiles
-                  </NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink className="navTextL_home" href="/AoP/">
-                    Areas of Practice
-                  </NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink className="navTextL_home" href="/FAQ/">
-                    FAQ
-                  </NavLink>
-                </NavItem>
+                <div className="navTextL_home_div">
+                  <NavItem>
+                    <NavLink className="navTextL_home" href="/">
+                      <strong>Home</strong>
+                    </NavLink>
+                  </NavItem>
+                  <NavItem>
+                    <NavLink className="navTextL_home" href="/AboutUs/">
+                      <strong>About Us</strong>
+                    </NavLink>
+                  </NavItem>
+                  <NavItem>
+                    <NavLink className="navTextL_home" href="/AttProf/">
+                      <strong>Attorney Profiles</strong>
+                    </NavLink>
+                  </NavItem>
+                  <NavItem>
+                    <NavLink className="navTextL_home" href="/AoP/">
+                      <strong>Areas of Practice</strong>
+                    </NavLink>
+                  </NavItem>
+                  <NavItem>
+                    <NavLink className="navTextL_home" href="/FAQ/">
+                      <strong>FAQ</strong>
+                    </NavLink>
+                  </NavItem>
+                </div>
               </Nav>
             </Collapse>
             <h1>

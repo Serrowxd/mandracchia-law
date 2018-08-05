@@ -31,16 +31,16 @@ p {
 }
 /* ~~ Navigation - HomeNav.css ~~ */
 .navHead_home {
-  font-size: 3.7rem;
+  font-size: 4rem;
   /* color: orangered !important; */
   background-color: transparent !important;
 }
 .navTextL_home {
   font-size: 1.6rem;
   padding-top: 2rem;
-  margin-right: 5.6rem;
+  margin-right: 5rem;
   /* color: orangered; */
-  color: orangered;
+  color: #f1b309;
 }
 .right_shift_nav {
   margin-right: 5.5rem;
@@ -52,11 +52,19 @@ p {
   /* height: 100%; */
   z-index: 9;
   background-color: transparent !important;
+  display: flex;
+  justify-content: space-between;
 }
 .headNav_home h1 {
   font-size: 1.5rem;
   text-align: center;
   /* background-color: transparent !important; */
+}
+.navTextL_home_div {
+  display: flex;
+  flex-direction: row;
+  background-color: transparent !important;
+  margin-left: 5rem;
 }
 .collapse {
   background-color: transparent !important;
@@ -77,7 +85,7 @@ p {
 }
 .none .navTextL_home {
   /* color: orangered; */
-  color: orangered;
+  color: #f1b309;
   transition: color 0.2s ease-in-out;
   transition: padding-top 0.5s ease-in-out;
   transition: margin-right 0.5s ease-in-out;
@@ -103,12 +111,13 @@ p {
 }
 /* ~~ Navigation - RSNav.css ~~ */
 .navHead {
-  font-size: 3.7rem;
+  font-size: 4rem;
 }
 .navTextL {
   font-size: 1.6rem;
   padding-top: 2rem;
   margin-right: 6rem;
+  color: #f1b309 !important;
 }
 .right_shift_nav {
   margin-right: 5.5rem;
@@ -126,9 +135,8 @@ p {
 .jumboColor {
   /* padding-top: 5%; this is for the sticky RSNav */
   /* background-color: #f8f9fa; */
-  background-image: url('../assets/aboutus-banner-bg.jpg');
+  background-image: url('../assets/unnamed30opacnorm.png');
   background-color: #181818 !important;
-  /* background-image: url('../assets/unnamed60darkauto.png'); */
   background-repeat: no-repeat;
   /* width: 196.7vh !important; */
   width: 106.3%;
@@ -141,27 +149,48 @@ p {
   background-attachment: fixed;
   height: 100vh;
   padding-top: 10rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .headJumboButton {
   width: 30rem;
   height: 4rem;
   font-size: 2rem;
-  background-color: #a74e3a;
+  background-color: #f1b309;
   color: white;
   border: none;
+  background-position: center;
+  transition: background 0.8s;
   /* margin-left: 6rem; */
 }
 .headJumboButton:hover {
-  color: black;
-  background: #f8f9fa;
+  background: #f1c609 radial-gradient(circle, transparent 1%, #f1b309 1%) center / 15000%;
+}
+.headJumboButton:active {
+  background-color: rgba(255, 230, 0, 0.945) !important;
+  background-size: 100%;
+  transition: background 0s;
 }
 .shift_right {
   margin-left: 2%;
   max-width: 60rem;
+  font-weight: bold;
   /* color: black; */
 }
 .lead {
   margin-top: 3rem;
+}
+.transHead_div {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent !important;
+  margin-left: 2rem;
+  justify-content: center;
+}
+.img_header_att {
+  height: 50rem;
+  width: auto;
 }
 /* ~~ HomePage Lower.css ~~ */
 /* temporary padding for framework */
@@ -314,7 +343,7 @@ p {
   font-size: 3rem;
 }
 .lawyerName_hover:hover {
-  color: orangered;
+  color: #f1b309;
 }
 .lawyerName_hover {
   color: black;
@@ -365,11 +394,11 @@ p {
   font-size: 1.4rem;
 }
 .oco {
-  color: orangered !important;
+  color: #f1b309 !important;
   padding-top: 2rem;
 }
 .upperCon span {
-  color: orangered;
+  color: #f1b309;
 }
 .upperCon h4 {
   text-align: center;
@@ -399,7 +428,7 @@ p {
 }
 /* ~~ AboutUs.css ~~ */
 span {
-  color: orangered;
+  color: #f1b309;
 }
 .aob_img {
   width: 90%;
@@ -414,13 +443,13 @@ span {
 /* ~~ AoP.css ~~ */
 .list-group-item {
   background-color: transparent;
-  border: 1px solid orangered;
+  border: 1px solid #f1b309;
   color: white;
   font-size: 1.5rem;
   transition: color 0.5s ease;
 }
 .list-group-item:hover {
-  color: gold;
+  color: #f1b309;
 }
 .list-group {
   width: 12rem;
@@ -433,7 +462,7 @@ span {
   font-size: 1.3rem;
 }
 .civil_div h1 {
-  color: orangered;
+  color: #f1b309;
   font-size: 2.3rem;
   text-align: center;
   padding-top: 1rem;
@@ -491,7 +520,7 @@ span {
 .thesecond {
   margin-top: -5rem;
   font-size: 4rem;
-  color: orangered;
+  color: #f1b309;
 }
 .att_prof_page {
   background-color: #eeeeee !important;
@@ -577,7 +606,7 @@ span {
   margin-top: 4rem;
 }
 .lower_bio h1 {
-  color: orangered;
+  color: #f1b309;
   padding-bottom: 1rem;
 }
 .lower_bio h3 {
