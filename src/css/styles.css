@@ -325,7 +325,8 @@ p {
 .imgLawyer {
   margin-right: 1rem;
   padding-top: 4rem;
-  width: 25rem;
+  height: 40rem;
+  width: auto;
 }
 .lawyer_head {
   margin-left: 4.5rem;

@@ -5,9 +5,9 @@ import { Container, Row, Col } from 'reactstrap';
 
 import img from './placeholder.png';
 
-import att1 from '../../../../assets/attorney-mandracchia.png';
-import att2 from '../../../../assets/cm.jpg';
-import att3 from '../../../../assets/attorney-soderberg.png';
+import att1 from '../../../../assets/lawyerimgs/Mandracchia_0091.jpg';
+import att2 from '../../../../assets/lawyerimgs/unnamednew.jpg';
+import att3 from '../../../../assets/lawyerimgs/Soderberg_0107.jpg';
 
 class MeetUs extends Component {
   render() {
