@@ -12,6 +12,8 @@ import {
 
 // import './HomeNav.css';
 
+import img from '../../../assets/manlawhead.png';
+
 class HomeNav extends Component {
   constructor(props) {
     super(props);
@@ -66,7 +68,8 @@ class HomeNav extends Component {
             className={scrolled ? 'navscrolled' : 'none'}
           >
             <NavbarBrand className="navHead_home">
-              <strong>Mandracchia Law</strong>
+              {/* <strong>Mandracchia Law</strong> */}
+              <img src={img} class="nav_header_img" alt="ManLaw" />
             </NavbarBrand>
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
