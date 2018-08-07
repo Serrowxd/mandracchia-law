@@ -7,7 +7,7 @@ import { Container, Row, Col } from 'reactstrap';
 // import imgCharles from '../../../assets/lawyerimgs/Mandracchia_0091.jpg';
 // import imgJeff from '../../../assets/lawyerimgs/Soderberg_0107.jpg';
 
-import Contact from '../../Contact/Contact';
+import ContactForm from '../../ContactForm/ContactForm';
 
 // import NavBar from '../../NavBar/NavBar';
 import RSNav from '../../NavBar/RSNav/RSNav';

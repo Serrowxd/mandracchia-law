@@ -97,7 +97,7 @@ class HomeNav extends Component {
                   </NavItem>
                   <NavItem>
                     <NavLink className="navTextL_home" href="/FAQ/">
-                      <strong>FAQ</strong>
+                      <strong>Contact </strong>
                     </NavLink>
                   </NavItem>
                 </div>

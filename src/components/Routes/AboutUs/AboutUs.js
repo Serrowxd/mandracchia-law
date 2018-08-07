@@ -5,7 +5,7 @@ import img from './../../../assets/law.jpg';
 
 // import './AboutUs.css';
 
-import Contact from '../../Contact/Contact';
+import ContactForm from '../../ContactForm/ContactForm';
 
 // import NavBar from '../../NavBar/NavBar';
 import RSNav from '../../NavBar/RSNav/RSNav';
@@ -86,7 +86,7 @@ class AboutUs extends Component {
                 attorneys’ combined experience of more than 100 years. To speak
                 with a criminal defense or personal injury lawyer in Montgomery
                 County about your legal matter, call 610-584-0700 today, or
-                contact us online.
+                ContactForm us online.
               </p>
               <p>
                 Mandracchia Law LLC is located in Montgomery County, serving
@@ -96,7 +96,7 @@ class AboutUs extends Component {
             </Col>
 
             <Col sm={{ size: 3, offset: 0 }}>
-              <Contact />
+              <ContactForm />
             </Col>
           </Row>
         </Container>

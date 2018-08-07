@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'reactstrap';
 
 // import './AttProf.css';
 
-import Contact from '../../Contact/Contact';
+import ContactForm from '../../ContactForm/ContactForm';
 
 import AttConst from './AttConst/AttConst';
 
@@ -67,7 +67,7 @@ class ChrisProf extends Component {
               </Row>
             </Col>
             {/* <Col sm={{ size: 3, offset: 1 }}>
-              <Contact />
+              <ContactForm />
             </Col> */}
           </Row>
           <Row>
@@ -79,7 +79,7 @@ class ChrisProf extends Component {
               <p>{this.state.self_text5}</p>
             </Col>
             {/* <Col sm={{ size: 3, offset: 0 }}>
-              <Contact />
+              <ContactForm />
             </Col> */}
           </Row>
         </Container>

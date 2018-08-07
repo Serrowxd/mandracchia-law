@@ -16,7 +16,7 @@ import Estates from './aoproutes/estates';
 
 import Holder from './aoproutes/holder';
 
-import Contact from '../../Contact/Contact';
+import ContactForm from '../../ContactForm/ContactForm';
 
 // import NavBar from '../../NavBar/NavBar';
 import RSNav from '../../NavBar/RSNav/RSNav';
@@ -143,7 +143,7 @@ class AoP extends Component {
             </Col>
             <Col sm={{ size: 7, offset: 0 }}>{this.state.comp}</Col>
             <Col sm={{ size: 3, offset: 0 }}>
-              <Contact />
+              <ContactForm />
             </Col>
           </Row>
         </Container>

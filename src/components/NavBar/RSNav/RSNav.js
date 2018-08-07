@@ -75,7 +75,7 @@ class RSNav extends Component {
                 </NavItem>
                 <NavItem>
                   <NavLink className="navTextL glb_anim" href="/FAQ/">
-                    FAQ
+                    Contact
                   </NavLink>
                 </NavItem>
               </Nav>
