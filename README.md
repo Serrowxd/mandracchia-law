@@ -2,6 +2,8 @@
 
 # https://eager-ritchie-1c71bb.netlify.com/
 
+# THIS PROJECT IS NO LONGER BEING MAINTAINED AND HAS BEEN MOVED!
+
 ### An Attorney Website by Jared Cooper and Kevin Jolley.
 
 ### Front-End Design & </> - `Kevin Jolley`
